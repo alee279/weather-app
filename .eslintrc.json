@@ -1,27 +1,22 @@
 {
   "root": true,
-  "env": { "browser": true, "es2020": true },
+  "env": { "node": true },
   "extends": [
-    "airbnb",
-    "airbnb-typescript",
-    "airbnb/hooks",
+    "airbnb-base",
+    "airbnb-typescript/base",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "prettier"
   ],
   "parserOptions": {
-    "ecmaVersion": 2020,
-    "project": ["./tsconfig.json", "./tsconfig.node.json"],
+    "project": "**/tsconfig.json",
     "tsconfigRootDir": "."
   },
-  "plugins": ["unicorn", "react-refresh"],
+  "plugins": ["unicorn"],
   "rules": {
     // syntax rules
     "consistent-return": "off",
     "no-lonely-if": "error",
-    "no-param-reassign": "off",
-
-    // import
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -32,8 +27,6 @@
         "tsx": "never"
       }
     ],
-
-    // typescript
     "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
     "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/no-use-before-define": [
@@ -44,27 +37,11 @@
       }
     ],
 
-    // react
-    "react/jsx-props-no-spreading": "off",
-    "react/require-default-props": "off",
-    "react/jsx-filename-extension": [
-      "error",
-      { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
-    ],
-    "react/react-in-jsx-scope": "off",
-
     // unicorn
     "unicorn/consistent-destructuring": "error",
     "unicorn/error-message": "error",
     "unicorn/no-abusive-eslint-disable": "error",
     "unicorn/no-lonely-if": "error",
-    "unicorn/prefer-ternary": "error",
-
-    // vite
-    "react-refresh/only-export-components": [
-      "warn",
-      { "allowConstantExport": true }
-    ]
-  },
-  "ignorePatterns": ["/*.js"]
+    "unicorn/prefer-ternary": "error"
+  }
 }
