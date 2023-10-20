@@ -19,6 +19,6 @@
     "strictNullChecks": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["frontend", "backend"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
