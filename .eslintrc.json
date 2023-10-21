@@ -36,6 +36,12 @@
         "classes": false
       }
     ],
+    "@typescript-eslint/no-misused-promises": [
+      "error",
+      {
+        "checksVoidReturn": false
+      }
+    ],
 
     // unicorn
     "unicorn/consistent-destructuring": "error",
