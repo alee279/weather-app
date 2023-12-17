@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   env: { browser: true, es2020: true },
-  extends: ['@cis-1962/eslint-config/typescript'],
+  extends: ['@cis-1962/eslint-config/react'],
   plugins: ['react-refresh'],
   parser: '@typescript-eslint/parser',
   parserOptions: {

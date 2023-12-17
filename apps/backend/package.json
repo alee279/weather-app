@@ -15,7 +15,7 @@
     "mongoose": "^7.6.3"
   },
   "devDependencies": {
-    "@cis-1962/eslint-config": "^1.0.2",
+    "@cis-1962/eslint-config": "^1.0.4",
     "@types/express": "^4.17.21",
     "nodemon": "^3.0.1",
     "ts-node": "^10.9.2",
