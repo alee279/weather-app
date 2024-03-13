@@ -22,13 +22,13 @@ npm run lint
 
 # Communicating between ends
 
-We've configured Vite's dev server to use a [proxy](https://vitejs.dev/config/server-options.html#server-proxy) at `/api`, which points at the default backend dev URL.
+We've configured Vite's dev server to use a [proxy](https://vitejs.dev/config/server-options.html#server-proxy) at `/api`, which points at the default backend dev URL (also at `/api`).
 
-This means, in development, you can (for example) make a request to a route defined on the backend at `/user` (normally `http://localhost:8000/user`) by hitting `/api/user`, which would otherwise just be `http://localhost:3000/api/user`.
+This means, in development, you can (for example) make a request to a route defined on the backend at `http://localhost:8000/api/user` by hitting `/api/user`, which would otherwise just be `http://localhost:3000/api/user`.
 
 This mirrors what larger projects do in production, putting the backend at the same URL under some extra path or subdomain. It also eliminates a lot of extra URL manipulation work or [CORS problems](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS/Errors) you could otherwise encounter.
 
-# Sharing types between ends
+# Advanced usage: sharing types between ends
 
 If you define types in `apps/backend` you want to use in your frontend – especially useful for building typesafe routes – you can add this line in your frontend `package.json`, in `devDependencies`:
 

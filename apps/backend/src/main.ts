@@ -8,8 +8,8 @@ const PORT = process.env.PORT ?? 8000;
 const app = express();
 
 // define root route
-app.get('/', (_, res) => {
-  res.send('Hello, backend!');
+app.get('/api/hello', (_, res) => {
+  res.json({ message: 'Hello, frontend!' });
 });
 
 // listen

@@ -25,6 +25,17 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
+        <button
+          type="button"
+          onClick={async () => {
+            const res = await fetch('/api/hello', { method: 'GET' });
+            const data = (await res.json()) as { message: string };
+            // eslint-disable-next-line no-alert
+            alert(data.message);
+          }}
+        >
+          Hello, backend!
+        </button>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
