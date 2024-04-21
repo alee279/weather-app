@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "weather_app_testing",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

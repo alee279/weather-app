@@ -1,0 +1,11 @@
+meta {
+  name: get hourly precip
+  type: http
+  seq: 8
+}
+
+get {
+  url: http://localhost:8000/forecast/Philadelphia/hourlyForecast
+  body: none
+  auth: none
+}

@@ -1,0 +1,11 @@
+meta {
+  name: get daily forecasts
+  type: http
+  seq: 6
+}
+
+get {
+  url: http://localhost:8000/forecast/Philadelphia/weeklyForecast
+  body: none
+  auth: none
+}

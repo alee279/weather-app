@@ -1,5 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
+import forecastRouter from './routes/forecast'
+import { updateForecastDataForAllCities } from './findURL';
 
 // read environment variables from .env file
 dotenv.config();
@@ -7,10 +9,11 @@ const PORT = process.env.PORT ?? 8000;
 
 const app = express();
 
-// define root route
-app.get('/api/hello', (_, res) => {
+app.get('/hello', (_, res) => {
   res.json({ message: 'Hello, frontend!' });
 });
+
+app.use('/forecast', forecastRouter)
 
 // listen
 app.listen(PORT, () => {
