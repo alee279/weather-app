@@ -3,6 +3,7 @@ import '../app.css';
 import CurrForecast from '../components/CurrForecast';
 
 function App() {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [city, setCity] = useState('Philadelphia');
 
   return (

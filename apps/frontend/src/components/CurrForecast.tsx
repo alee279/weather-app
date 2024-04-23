@@ -8,7 +8,7 @@ CurrForecast.propTypes = {
 };
 
 function CurrForecast({ cityName }) {
-  const [temp] = React.useState(0);
+  const [temp] = React.useState('0');
 
   React.useEffect(() => {
     const fetchForecast = async () => {
