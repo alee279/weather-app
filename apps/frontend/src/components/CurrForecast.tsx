@@ -15,6 +15,7 @@ function CurrForecast({ cityName }) {
       try {
         const response = await axios.get(`/forecast/${cityName}/currForecast`);
         console.log(cityName);
+        console.log(response.data.temp);
         console.log(response.data);
         // setTemp(response);
       } catch (error) {
