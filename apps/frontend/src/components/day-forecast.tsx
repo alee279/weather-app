@@ -16,11 +16,12 @@ function DayForecast({ cityName }) {
   React.useEffect(() => {
     const fetchForecast = async () => {
       try {
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const response = await axios.get(
           `/forecast/${cityName}/hourlyForecast`,
         );
-        console.log(cityName);
-        console.log(response.data);
+        // console.log(cityName);
+        // console.log(response.data);
         // setForecast(response.data);
       } catch (error) {
         console.error('Error fetching forecast', error);

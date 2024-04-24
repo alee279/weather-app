@@ -8,7 +8,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       // this proxy routes all requests to `/api` to the backend (also /api)
-      '/api': {
+      '/forecast': {
         target: 'http://localhost:8000',
         changeOrigin: true,
       },

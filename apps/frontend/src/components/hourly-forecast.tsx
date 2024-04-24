@@ -10,6 +10,8 @@ import {
 import React from 'react';
 import axios from 'axios';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import theme from '../theme';
+import { ThemeProvider } from '@mui/material/styles';
 
 HourlyForecast.propTypes = {
   cityName: PropTypes.string.isRequired,
@@ -21,7 +23,7 @@ function HourlyForecast({ cityName }) {
     {
       number: 1,
       name: '',
-      startTime: '2024-04-23T19:00:00-04:00',
+      startTime: '2024-04-23T00:00:00-04:00',
       endTime: '2024-04-23T20:00:00-04:00',
       isDaytime: false,
       temperature: 62,
@@ -33,13 +35,13 @@ function HourlyForecast({ cityName }) {
       },
       dewpoint: {
         unitCode: 'wmoUnit:degC',
-        value: 1.1111111111111112,
+        value: 0,
       },
       relativeHumidity: {
         unitCode: 'wmoUnit:percent',
-        value: 35,
+        value: 0,
       },
-      windSpeed: '10 mph',
+      windSpeed: '0 mph',
       windDirection: 'S',
       icon: 'https://api.weather.gov/icons/land/night/few,0?size=small',
       shortForecast: 'Mostly Clear',
@@ -50,11 +52,12 @@ function HourlyForecast({ cityName }) {
   React.useEffect(() => {
     const fetchForecast = async () => {
       try {
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const response = await axios.get(
           `/forecast/${cityName}/hourlyForecast`,
         );
-        console.log(cityName);
-        console.log(response.data);
+        // console.log(cityName);
+        // console.log(response.data);
         // setForecast(response.data);
       } catch (error) {
         console.error('Error fetching forecast', error);
@@ -67,7 +70,9 @@ function HourlyForecast({ cityName }) {
   function convertTo12HourFormat(time: string): string {
     const date = new Date(time);
     const options = { hour12: true };
-    return date.toLocaleString('en-US', options);
+    return date.toLocaleString('en-US', options).split(',')[1].trim();
+    // .replace('0', '')
+    // .replace(':', '');
   }
 
   // start time -- temperature -- short forecast
@@ -76,32 +81,38 @@ function HourlyForecast({ cityName }) {
   // humidity -- wind dir
   return (
     <>
-      {forecast.map((data, index) => (
-        <Accordion key={index}>
-          <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-            <Typography variant="h5">
-              {convertTo12HourFormat(data.startTime)}
-            </Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <div style={{ display: 'flex', alignItems: 'center' }}>
-              <Typography>
-                Precipitation: {data.probabilityOfPrecipitation.value}%
+      <ThemeProvider theme={theme}>
+        {forecast.map((data, index) => (
+          <Accordion key={index}>
+            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+              <Typography variant="h5" color="secondary">
+                {convertTo12HourFormat(data.startTime)}&nbsp;&nbsp;&nbsp;
+                {data.shortForecast}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                {data.temperature}&deg;F
               </Typography>
-              <Typography>
-                &nbsp;&nbsp;&nbsp;Wind Speed: {data.windSpeed}
-              </Typography>
-            </div>
+            </AccordionSummary>
+            <AccordionDetails>
+              <div style={{ display: 'flex', alignItems: 'center' }}>
+                <Typography>
+                  Precipitation: {data.probabilityOfPrecipitation.value}%
+                </Typography>
+                <Typography>
+                  &nbsp;&nbsp;&nbsp;Wind Speed: {data.windSpeed}
+                </Typography>
+              </div>
 
-            <div style={{ display: 'flex', alignItems: 'center' }}>
-              <Typography>Humidity: {data.relativeHumidity.value}%</Typography>
-              <Typography>
-                &nbsp;&nbsp;&nbsp;Wind Direction: {data.windDirection}
-              </Typography>
-            </div>
-          </AccordionDetails>
-        </Accordion>
-      ))}
+              <div style={{ display: 'flex', alignItems: 'center' }}>
+                <Typography>
+                  Humidity: {data.relativeHumidity.value}%
+                </Typography>
+                <Typography>
+                  &nbsp;&nbsp;&nbsp;Wind Direction: {data.windDirection}
+                </Typography>
+              </div>
+            </AccordionDetails>
+          </Accordion>
+        ))}
+      </ThemeProvider>
     </>
   );
 }

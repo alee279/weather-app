@@ -1,5 +1,6 @@
 import fs from 'fs';
 import axios from 'axios';
+import { ForecastData } from './types/types';
 
 interface City {
   city: string;
@@ -20,7 +21,7 @@ const cities = JSON.parse(data);
 // get forecast of current hour
 export async function getCurrForecast(cityName: string): Promise<unknown> {
   const city = cities.find((c: City) => c.city === cityName);
-
+  console.log("hello")
   if (!city) {
     console.error(`City '${cityName}' not found`);
     return null;
@@ -28,13 +29,34 @@ export async function getCurrForecast(cityName: string): Promise<unknown> {
 
   try {
     const response = await axios.get(city.hourlyForecast);
-    return response.data.properties.periods[0];
-  } catch (error) {
+    const data = response.data.properties.periods[0];
+    const forecast: ForecastData = {
+      temperature: data.temperature,
+      temperatureUnit: data.temperatureUnit,
+      timeOfDay: data.timeOfDay,
+      shortForecast: data.shortForecast,
+      precipitation: data.probabilityOfPrecipitation?.value || 0,
+      windSpeed: data.windSpeed,
+      windDirection: data.windDirection,
+      humidity: data.relativeHumidity?.value || 0,
+      probabilityOfPrecipitation: {
+        unitCode: data.probabilityOfPrecipitation?.unitCode || '',
+        value: data.probabilityOfPrecipitation?.value || 0,
+      },
+      relativeHumidity: {
+        unitCode: data.relativeHumidity?.unitCode || '',
+        value: data.relativeHumidity?.value || 0,
+      },
+      icon: data.icon || '',
+    };
+    return forecast;
+      } catch (error) {
     console.error('Error fetching daily forecast:', error);
     throw error; 
   }
 }
 
+// get 24 hr forecast
 export async function getHourlyForecast(cityName: string): Promise<unknown> {
   const city = cities.find((c: City) => c.city === cityName);
 

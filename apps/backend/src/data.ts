@@ -30,7 +30,7 @@ export async function getForecastURL(cityName: string): Promise<{ dailyForecast:
       const responseData = response.data;
       city.dailyForecast = responseData.properties.forecast;
       city.hourlyForecast = responseData.properties.forecastHourly;
-      fs.writeFileSync('data/cities.json', JSON.stringify(cities, null, 2), 'utf8');
+      // fs.writeFileSync('data/cities.json', JSON.stringify(cities, null, 2), 'utf8');
 
       return { dailyForecast: responseData.properties.forecast, hourlyForecast: responseData.properties.forecastHourly };
   } catch (error) {
@@ -44,7 +44,8 @@ export async function updateForecastDataForAllCities(): Promise<void> {
 
   await Promise.all(cities.map(async (city: City) => {
     try {
-      const forecastData = await getForecastURL(city.city); // Call getForecastURL for each city
+      console.log(city.city);
+      const forecastData = await getForecastURL(city.city);
       if (forecastData) {
         city.dailyForecast = forecastData.dailyForecast;
         city.hourlyForecast = forecastData.hourlyForecast;
@@ -54,6 +55,11 @@ export async function updateForecastDataForAllCities(): Promise<void> {
     }
   }))
 
-  // Write updated cities data back to JSON file
   fs.writeFileSync('data/cities.json', JSON.stringify(cities, null, 2), 'utf8');
+}
+
+// get list of city names
+export function getCityNames(): void {
+  const cityNames = cities.map(city => city.city);
+  fs.writeFileSync('data/cityNames.json', JSON.stringify(cityNames, null, 2), 'utf8');
 }

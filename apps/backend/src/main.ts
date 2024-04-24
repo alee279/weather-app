@@ -1,12 +1,16 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import forecastRouter from './routes/forecast'
+import { getCityNames, updateForecastDataForAllCities } from './data';
 
 // read environment variables from .env file
 dotenv.config();
 const PORT = process.env.PORT ?? 8000;
 
 const app = express();
+
+// updateForecastDataForAllCities()
+// getCityNames();
 
 app.get('/hello', (_, res) => {
   res.json({ message: 'Hello, frontend!' });

@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import PropTypes from 'prop-types';
 import { Card, Typography } from '@mui/material';
-import { ForecastData } from '../types/types';
+import { CurrentForecastData } from '../types/types';
 
 CurrTemperature.propTypes = {
   cityName: PropTypes.string.isRequired,
@@ -10,7 +10,7 @@ CurrTemperature.propTypes = {
 
 function CurrTemperature({ cityName }) {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [forecast, setForecast] = React.useState<ForecastData>({
+  const [forecast, setForecast] = React.useState<CurrentForecastData>({
     temperature: 0,
     temperatureUnit: '',
     timeOfDay: '',
@@ -33,9 +33,11 @@ function CurrTemperature({ cityName }) {
   React.useEffect(() => {
     const fetchForecast = async () => {
       try {
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const response = await axios.get(`/forecast/${cityName}/currForecast`);
-        console.log(cityName);
-        console.log(response.data);
+        // const response = await axios.get(`http://localhost:8000/forecast/${cityName}/currForecast`);
+        // console.log(cityName);
+        // console.log(response.data);
         // setForecast(response);
       } catch (error) {
         console.error('Error fetching forecast', error);
