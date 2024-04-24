@@ -2,15 +2,15 @@ import React from 'react';
 import axios from 'axios';
 import PropTypes from 'prop-types';
 import { Card, Typography } from '@mui/material';
-import { CurrentForecastData } from '../types/types';
+import { ForecastData } from '../types/types';
 
-CurrForecast.propTypes = {
+CurrTemperature.propTypes = {
   cityName: PropTypes.string.isRequired,
 };
 
-function CurrForecast({ cityName }) {
+function CurrTemperature({ cityName }) {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [forecast, setForecast] = React.useState<CurrentForecastData>({
+  const [forecast, setForecast] = React.useState<ForecastData>({
     temperature: 0,
     temperatureUnit: '',
     timeOfDay: '',
@@ -45,34 +45,22 @@ function CurrForecast({ cityName }) {
     fetchForecast();
   }, [cityName]);
 
-  // short forecast
-  // precip -- wind speed
-  // humidity -- wind dir
   return (
     <>
-      <Card>
-        <div style={{ alignItems: 'center', margin: '30px' }}>
-          <Typography>{forecast.shortForecast}</Typography>
-
-          <div style={{ display: 'flex', alignItems: 'center' }}>
-            <Typography>
-              Precipitation: {forecast.probabilityOfPrecipitation.value}
+      <div style={{ display: 'flex', alignItems: 'center', margin: '30px' }}>
+        <Card>
+          <div
+            style={{ display: 'flex', alignItems: 'center', margin: '30px' }}
+          >
+            <Typography variant="h1" style={{ marginRight: '8px' }}>
+              {forecast.temperature}&deg;
             </Typography>
-            <Typography>
-              &nbsp;&nbsp;&nbsp;Wind Speed: {forecast.windSpeed}
-            </Typography>
+            <Typography variant="h3">{forecast.temperatureUnit}</Typography>
           </div>
-
-          <div style={{ display: 'flex', alignItems: 'center' }}>
-            <Typography>Humidity: {forecast.humidity}</Typography>
-            <Typography>
-              &nbsp;&nbsp;&nbsp;Wind Direction: {forecast.windDirection}
-            </Typography>
-          </div>
-        </div>
-      </Card>
+        </Card>
+      </div>
     </>
   );
 }
 
-export default CurrForecast;
+export default CurrTemperature;
