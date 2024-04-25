@@ -1,6 +1,5 @@
 import fs from 'fs';
 import axios from 'axios';
-import { ForecastData } from './types/types';
 
 interface City {
   city: string;
@@ -29,27 +28,7 @@ export async function getCurrForecast(cityName: string): Promise<unknown> {
 
   try {
     const response = await axios.get(city.hourlyForecast);
-    const data = response.data.properties.periods[0];
-    const forecast: ForecastData = {
-      temperature: data.temperature,
-      temperatureUnit: data.temperatureUnit,
-      timeOfDay: data.timeOfDay,
-      shortForecast: data.shortForecast,
-      precipitation: data.probabilityOfPrecipitation?.value || 0,
-      windSpeed: data.windSpeed,
-      windDirection: data.windDirection,
-      humidity: data.relativeHumidity?.value || 0,
-      probabilityOfPrecipitation: {
-        unitCode: data.probabilityOfPrecipitation?.unitCode || '',
-        value: data.probabilityOfPrecipitation?.value || 0,
-      },
-      relativeHumidity: {
-        unitCode: data.relativeHumidity?.unitCode || '',
-        value: data.relativeHumidity?.value || 0,
-      },
-      icon: data.icon || '',
-    };
-    return forecast;
+    return response.data.properties.periods[0];
       } catch (error) {
     console.error('Error fetching daily forecast:', error);
     throw error; 
@@ -67,7 +46,7 @@ export async function getHourlyForecast(cityName: string): Promise<unknown> {
 
   try {
     const response = await axios.get(city.hourlyForecast);
-    return response.data.properties.periods.slice(0, 24);
+    return response.data.properties.periods.slice(0, 12);
   } catch (error) {
     console.error('Error fetching daily forecast:', error);
     throw error; 
@@ -107,7 +86,6 @@ export async function getWeeklyNighttimeTemp(cityName: string): Promise<unknown>
     const periods = response.data.properties.periods;
     return periods.filter(period => !period.isDaytime).map(period => ({
       startTime: period.startTime,
-      endTime: period.endTime,
       temperature: period.temperature
     }));
   } catch (error) {

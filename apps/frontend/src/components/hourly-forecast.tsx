@@ -17,8 +17,12 @@ HourlyForecast.propTypes = {
   cityName: PropTypes.string.isRequired,
 };
 
+function convertTo12HourFormat(time: string): string {
+  const date = new Date(time);
+  return date.toLocaleString('en-US', { hour: 'numeric', hour12: true });
+}
+
 function HourlyForecast({ cityName }) {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [forecast, setForecast] = useState<HourlyForecastData[]>([
     {
       number: 1,
@@ -52,28 +56,19 @@ function HourlyForecast({ cityName }) {
   React.useEffect(() => {
     const fetchForecast = async () => {
       try {
-        // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const response = await axios.get(
           `/forecast/${cityName}/hourlyForecast`,
         );
         // console.log(cityName);
         // console.log(response.data);
-        // setForecast(response.data);
+        setForecast(response.data);
       } catch (error) {
-        console.error('Error fetching forecast', error);
+        // console.error('Error fetching forecast', error);
       }
     };
 
     fetchForecast();
   }, [cityName]);
-
-  function convertTo12HourFormat(time: string): string {
-    const date = new Date(time);
-    const options = { hour12: true };
-    return date.toLocaleString('en-US', options).split(',')[1].trim();
-    // .replace('0', '')
-    // .replace(':', '');
-  }
 
   // start time -- temperature -- short forecast
 
@@ -85,7 +80,7 @@ function HourlyForecast({ cityName }) {
         {forecast.map((data, index) => (
           <Accordion key={index}>
             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant="h5" color="secondary">
+              <Typography variant="body1" color="secondary">
                 {convertTo12HourFormat(data.startTime)}&nbsp;&nbsp;&nbsp;
                 {data.shortForecast}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 {data.temperature}&deg;F

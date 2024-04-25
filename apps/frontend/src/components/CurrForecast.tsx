@@ -2,24 +2,27 @@ import React from 'react';
 import axios from 'axios';
 import PropTypes from 'prop-types';
 import { Card, Typography } from '@mui/material';
-import { CurrentForecastData } from '../types/types';
+import { HourlyForecastData } from '../types/types';
 
 CurrForecast.propTypes = {
   cityName: PropTypes.string.isRequired,
 };
 
 function CurrForecast({ cityName }) {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [forecast, setForecast] = React.useState<CurrentForecastData>({
+  const [forecast, setForecast] = React.useState<HourlyForecastData>({
+    number: 0,
+    name: '',
+    startTime: '',
+    endTime: '',
+    isDaytime: false,
     temperature: 0,
     temperatureUnit: '',
-    timeOfDay: '',
-    shortForecast: '',
-    precipitation: 0,
-    windSpeed: 0,
-    windDirection: '',
-    humidity: 0,
+    temperatureTrend: null,
     probabilityOfPrecipitation: {
+      unitCode: '',
+      value: 0,
+    },
+    dewpoint: {
       unitCode: '',
       value: 0,
     },
@@ -27,18 +30,22 @@ function CurrForecast({ cityName }) {
       unitCode: '',
       value: 0,
     },
+    windSpeed: '',
+    windDirection: '',
     icon: '',
+    shortForecast: '',
+    detailedForecast: '',
   });
 
   React.useEffect(() => {
     const fetchForecast = async () => {
       try {
         const response = await axios.get(`/forecast/${cityName}/currForecast`);
-        console.log(cityName);
-        console.log(response.data);
-        // setForecast(response);
+        // console.log(cityName);
+        // console.log(response.data);
+        setForecast(response.data);
       } catch (error) {
-        console.error('Error fetching forecast', error);
+        // console.error('Error fetching forecast', error);
       }
     };
 
@@ -53,10 +60,9 @@ function CurrForecast({ cityName }) {
       <Card>
         <div style={{ alignItems: 'center', margin: '30px' }}>
           <Typography>{forecast.shortForecast}</Typography>
-
           <div style={{ display: 'flex', alignItems: 'center' }}>
             <Typography>
-              Precipitation: {forecast.probabilityOfPrecipitation.value}
+              Precipitation: {forecast.probabilityOfPrecipitation.value}%
             </Typography>
             <Typography>
               &nbsp;&nbsp;&nbsp;Wind Speed: {forecast.windSpeed}
@@ -64,7 +70,9 @@ function CurrForecast({ cityName }) {
           </div>
 
           <div style={{ display: 'flex', alignItems: 'center' }}>
-            <Typography>Humidity: {forecast.humidity}</Typography>
+            <Typography>
+              Humidity: {forecast.relativeHumidity.value}%
+            </Typography>
             <Typography>
               &nbsp;&nbsp;&nbsp;Wind Direction: {forecast.windDirection}
             </Typography>

@@ -39,7 +39,9 @@
     "longitude": -95.3698028,
     "population": "2195914",
     "rank": "4",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/HGX/65,97/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/HGX/65,97/forecast/hourly"
   },
   {
     "city": "Philadelphia",
@@ -59,7 +61,9 @@
     "longitude": -112.0740373,
     "population": "1513367",
     "rank": "6",
-    "state": "Arizona"
+    "state": "Arizona",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PSR/159,58/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PSR/159,58/forecast/hourly"
   },
   {
     "city": "San Antonio",
@@ -68,7 +72,9 @@
     "longitude": -98.49362819999999,
     "population": "1409019",
     "rank": "7",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/EWX/126,54/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/EWX/126,54/forecast/hourly"
   },
   {
     "city": "San Diego",
@@ -77,7 +83,9 @@
     "longitude": -117.1610838,
     "population": "1355896",
     "rank": "8",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/57,14/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/57,14/forecast/hourly"
   },
   {
     "city": "Dallas",
@@ -86,7 +94,9 @@
     "longitude": -96.79698789999999,
     "population": "1257676",
     "rank": "9",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FWD/89,104/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FWD/89,104/forecast/hourly"
   },
   {
     "city": "San Jose",
@@ -95,7 +105,9 @@
     "longitude": -121.8863286,
     "population": "998537",
     "rank": "10",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MTR/99,82/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MTR/99,82/forecast/hourly"
   },
   {
     "city": "Austin",
@@ -104,7 +116,9 @@
     "longitude": -97.7430608,
     "population": "885400",
     "rank": "11",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/EWX/156,91/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/EWX/156,91/forecast/hourly"
   },
   {
     "city": "Indianapolis",
@@ -113,7 +127,9 @@
     "longitude": -86.158068,
     "population": "843393",
     "rank": "12",
-    "state": "Indiana"
+    "state": "Indiana",
+    "dailyForecast": "https://api.weather.gov/gridpoints/IND/58,69/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/IND/58,69/forecast/hourly"
   },
   {
     "city": "Jacksonville",
@@ -122,7 +138,9 @@
     "longitude": -81.65565099999999,
     "population": "842583",
     "rank": "13",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/JAX/66,65/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/JAX/66,65/forecast/hourly"
   },
   {
     "city": "San Francisco",
@@ -131,7 +149,9 @@
     "longitude": -122.4194155,
     "population": "837442",
     "rank": "14",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MTR/85,105/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MTR/85,105/forecast/hourly"
   },
   {
     "city": "Columbus",
@@ -140,7 +160,9 @@
     "longitude": -82.99879419999999,
     "population": "822553",
     "rank": "15",
-    "state": "Ohio"
+    "state": "Ohio",
+    "dailyForecast": "https://api.weather.gov/gridpoints/ILN/85,81/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/ILN/85,81/forecast/hourly"
   },
   {
     "city": "Charlotte",
@@ -149,7 +171,9 @@
     "longitude": -80.8431267,
     "population": "792862",
     "rank": "16",
-    "state": "North Carolina"
+    "state": "North Carolina",
+    "dailyForecast": "https://api.weather.gov/gridpoints/GSP/119,65/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/GSP/119,65/forecast/hourly"
   },
   {
     "city": "Fort Worth",
@@ -158,7 +182,9 @@
     "longitude": -97.3307658,
     "population": "792727",
     "rank": "17",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FWD/69,103/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FWD/69,103/forecast/hourly"
   },
   {
     "city": "Detroit",
@@ -167,7 +193,9 @@
     "longitude": -83.0457538,
     "population": "688701",
     "rank": "18",
-    "state": "Michigan"
+    "state": "Michigan",
+    "dailyForecast": "https://api.weather.gov/gridpoints/DTX/66,34/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/DTX/66,34/forecast/hourly"
   },
   {
     "city": "El Paso",
@@ -176,7 +204,9 @@
     "longitude": -106.4424559,
     "population": "674433",
     "rank": "19",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/EPZ/102,56/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/EPZ/102,56/forecast/hourly"
   },
   {
     "city": "Memphis",
@@ -185,7 +215,9 @@
     "longitude": -90.0489801,
     "population": "653450",
     "rank": "20",
-    "state": "Tennessee"
+    "state": "Tennessee",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MEG/42,67/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MEG/42,67/forecast/hourly"
   },
   {
     "city": "Seattle",
@@ -194,7 +226,9 @@
     "longitude": -122.3320708,
     "population": "652405",
     "rank": "21",
-    "state": "Washington"
+    "state": "Washington",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SEW/125,68/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SEW/125,68/forecast/hourly"
   },
   {
     "city": "Denver",
@@ -203,7 +237,9 @@
     "longitude": -104.990251,
     "population": "649495",
     "rank": "22",
-    "state": "Colorado"
+    "state": "Colorado",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOU/63,62/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOU/63,62/forecast/hourly"
   },
   {
     "city": "Washington",
@@ -212,7 +248,9 @@
     "longitude": -77.0368707,
     "population": "646449",
     "rank": "23",
-    "state": "District of Columbia"
+    "state": "District of Columbia",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LWX/96,72/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LWX/96,72/forecast/hourly"
   },
   {
     "city": "Boston",
@@ -221,7 +259,9 @@
     "longitude": -71.0588801,
     "population": "645966",
     "rank": "24",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOX/71,90/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOX/71,90/forecast/hourly"
   },
   {
     "city": "Nashville-Davidson",
@@ -241,7 +281,9 @@
     "longitude": -76.6121893,
     "population": "622104",
     "rank": "26",
-    "state": "Maryland"
+    "state": "Maryland",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LWX/109,91/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LWX/109,91/forecast/hourly"
   },
   {
     "city": "Oklahoma City",
@@ -250,7 +292,9 @@
     "longitude": -97.5164276,
     "population": "610613",
     "rank": "27",
-    "state": "Oklahoma"
+    "state": "Oklahoma",
+    "dailyForecast": "https://api.weather.gov/gridpoints/OUN/98,94/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/OUN/98,94/forecast/hourly"
   },
   {
     "city": "Louisville/Jefferson County",
@@ -259,7 +303,9 @@
     "longitude": -85.7584557,
     "population": "609893",
     "rank": "28",
-    "state": "Kentucky"
+    "state": "Kentucky",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LMK/50,78/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LMK/50,78/forecast/hourly"
   },
   {
     "city": "Portland",
@@ -268,7 +314,9 @@
     "longitude": -122.6764816,
     "population": "609456",
     "rank": "29",
-    "state": "Oregon"
+    "state": "Oregon",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PQR/113,104/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PQR/113,104/forecast/hourly"
   },
   {
     "city": "Las Vegas",
@@ -277,7 +325,9 @@
     "longitude": -115.1398296,
     "population": "603488",
     "rank": "30",
-    "state": "Nevada"
+    "state": "Nevada",
+    "dailyForecast": "https://api.weather.gov/gridpoints/VEF/123,98/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/VEF/123,98/forecast/hourly"
   },
   {
     "city": "Milwaukee",
@@ -286,7 +336,9 @@
     "longitude": -87.9064736,
     "population": "599164",
     "rank": "31",
-    "state": "Wisconsin"
+    "state": "Wisconsin",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MKX/88,65/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MKX/88,65/forecast/hourly"
   },
   {
     "city": "Albuquerque",
@@ -295,7 +347,9 @@
     "longitude": -106.6055534,
     "population": "556495",
     "rank": "32",
-    "state": "New Mexico"
+    "state": "New Mexico",
+    "dailyForecast": "https://api.weather.gov/gridpoints/ABQ/100,121/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/ABQ/100,121/forecast/hourly"
   },
   {
     "city": "Tucson",
@@ -304,7 +358,9 @@
     "longitude": -110.926479,
     "population": "526116",
     "rank": "33",
-    "state": "Arizona"
+    "state": "Arizona",
+    "dailyForecast": "https://api.weather.gov/gridpoints/TWC/93,49/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/TWC/93,49/forecast/hourly"
   },
   {
     "city": "Fresno",
@@ -313,7 +369,9 @@
     "longitude": -119.7725868,
     "population": "509924",
     "rank": "34",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/HNX/53,100/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/HNX/53,100/forecast/hourly"
   },
   {
     "city": "Sacramento",
@@ -322,7 +380,9 @@
     "longitude": -121.4943996,
     "population": "479686",
     "rank": "35",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/STO/41,68/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/STO/41,68/forecast/hourly"
   },
   {
     "city": "Long Beach",
@@ -331,7 +391,9 @@
     "longitude": -118.1937395,
     "population": "469428",
     "rank": "36",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/155,32/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/155,32/forecast/hourly"
   },
   {
     "city": "Kansas City",
@@ -340,7 +402,9 @@
     "longitude": -94.5785667,
     "population": "467007",
     "rank": "37",
-    "state": "Missouri"
+    "state": "Missouri",
+    "dailyForecast": "https://api.weather.gov/gridpoints/EAX/44,51/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/EAX/44,51/forecast/hourly"
   },
   {
     "city": "Mesa",
@@ -349,7 +413,9 @@
     "longitude": -111.8314724,
     "population": "457587",
     "rank": "38",
-    "state": "Arizona"
+    "state": "Arizona",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PSR/168,55/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PSR/168,55/forecast/hourly"
   },
   {
     "city": "Virginia Beach",
@@ -358,7 +424,9 @@
     "longitude": -75.97798499999999,
     "population": "448479",
     "rank": "39",
-    "state": "Virginia"
+    "state": "Virginia",
+    "dailyForecast": "https://api.weather.gov/gridpoints/AKQ/101,53/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/AKQ/101,53/forecast/hourly"
   },
   {
     "city": "Atlanta",
@@ -367,7 +435,9 @@
     "longitude": -84.3879824,
     "population": "447841",
     "rank": "40",
-    "state": "Georgia"
+    "state": "Georgia",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FFC/51,87/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FFC/51,87/forecast/hourly"
   },
   {
     "city": "Colorado Springs",
@@ -376,7 +446,9 @@
     "longitude": -104.8213634,
     "population": "439886",
     "rank": "41",
-    "state": "Colorado"
+    "state": "Colorado",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PUB/90,91/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PUB/90,91/forecast/hourly"
   },
   {
     "city": "Omaha",
@@ -385,7 +457,9 @@
     "longitude": -95.99798829999999,
     "population": "434353",
     "rank": "42",
-    "state": "Nebraska"
+    "state": "Nebraska",
+    "dailyForecast": "https://api.weather.gov/gridpoints/OAX/81,60/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/OAX/81,60/forecast/hourly"
   },
   {
     "city": "Raleigh",
@@ -394,7 +468,9 @@
     "longitude": -78.6381787,
     "population": "431746",
     "rank": "43",
-    "state": "North Carolina"
+    "state": "North Carolina",
+    "dailyForecast": "https://api.weather.gov/gridpoints/RAH/75,57/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/RAH/75,57/forecast/hourly"
   },
   {
     "city": "Miami",
@@ -403,7 +479,9 @@
     "longitude": -80.1917902,
     "population": "417650",
     "rank": "44",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MFL/110,50/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MFL/110,50/forecast/hourly"
   },
   {
     "city": "Oakland",
@@ -412,7 +490,9 @@
     "longitude": -122.2711137,
     "population": "406253",
     "rank": "45",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MTR/90,105/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MTR/90,105/forecast/hourly"
   },
   {
     "city": "Minneapolis",
@@ -421,7 +501,9 @@
     "longitude": -93.2650108,
     "population": "400070",
     "rank": "46",
-    "state": "Minnesota"
+    "state": "Minnesota",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MPX/108,72/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MPX/108,72/forecast/hourly"
   },
   {
     "city": "Tulsa",
@@ -430,7 +512,9 @@
     "longitude": -95.99277500000001,
     "population": "398121",
     "rank": "47",
-    "state": "Oklahoma"
+    "state": "Oklahoma",
+    "dailyForecast": "https://api.weather.gov/gridpoints/TSA/41,105/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/TSA/41,105/forecast/hourly"
   },
   {
     "city": "Cleveland",
@@ -439,7 +523,9 @@
     "longitude": -81.6943605,
     "population": "390113",
     "rank": "48",
-    "state": "Ohio"
+    "state": "Ohio",
+    "dailyForecast": "https://api.weather.gov/gridpoints/CLE/83,65/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/CLE/83,65/forecast/hourly"
   },
   {
     "city": "Wichita",
@@ -448,7 +534,9 @@
     "longitude": -97.336111,
     "population": "386552",
     "rank": "49",
-    "state": "Kansas"
+    "state": "Kansas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/ICT/62,34/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/ICT/62,34/forecast/hourly"
   },
   {
     "city": "Arlington",
@@ -457,7 +545,9 @@
     "longitude": -97.10806559999999,
     "population": "379577",
     "rank": "50",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FWD/78,102/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FWD/78,102/forecast/hourly"
   },
   {
     "city": "New Orleans",
@@ -466,7 +556,9 @@
     "longitude": -90.0715323,
     "population": "378715",
     "rank": "51",
-    "state": "Louisiana"
+    "state": "Louisiana",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LIX/68,88/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LIX/68,88/forecast/hourly"
   },
   {
     "city": "Bakersfield",
@@ -475,7 +567,9 @@
     "longitude": -119.0187125,
     "population": "363630",
     "rank": "52",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/HNX/68,35/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/HNX/68,35/forecast/hourly"
   },
   {
     "city": "Tampa",
@@ -484,7 +578,9 @@
     "longitude": -82.4571776,
     "population": "352957",
     "rank": "53",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/TBW/71,98/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/TBW/71,98/forecast/hourly"
   },
   {
     "city": "Honolulu",
@@ -493,7 +589,9 @@
     "longitude": -157.8583333,
     "population": "347884",
     "rank": "54",
-    "state": "Hawaii"
+    "state": "Hawaii",
+    "dailyForecast": "https://api.weather.gov/gridpoints/HFO/154,145/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/HFO/154,145/forecast/hourly"
   },
   {
     "city": "Aurora",
@@ -502,7 +600,9 @@
     "longitude": -104.8319195,
     "population": "345803",
     "rank": "55",
-    "state": "Colorado"
+    "state": "Colorado",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOU/68,61/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOU/68,61/forecast/hourly"
   },
   {
     "city": "Anaheim",
@@ -511,7 +611,9 @@
     "longitude": -117.9145036,
     "population": "345012",
     "rank": "56",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/37,67/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/37,67/forecast/hourly"
   },
   {
     "city": "Santa Ana",
@@ -520,7 +622,9 @@
     "longitude": -117.8678338,
     "population": "334227",
     "rank": "57",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/38,63/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/38,63/forecast/hourly"
   },
   {
     "city": "St. Louis",
@@ -529,7 +633,9 @@
     "longitude": -90.19940419999999,
     "population": "318416",
     "rank": "58",
-    "state": "Missouri"
+    "state": "Missouri",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LSX/95,74/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LSX/95,74/forecast/hourly"
   },
   {
     "city": "Riverside",
@@ -538,7 +644,9 @@
     "longitude": -117.3961564,
     "population": "316619",
     "rank": "59",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/57,69/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/57,69/forecast/hourly"
   },
   {
     "city": "Corpus Christi",
@@ -547,7 +655,9 @@
     "longitude": -97.39638099999999,
     "population": "316381",
     "rank": "60",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/CRP/110,34/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/CRP/110,34/forecast/hourly"
   },
   {
     "city": "Lexington-Fayette",
@@ -556,7 +666,9 @@
     "longitude": -84.5037164,
     "population": "308428",
     "rank": "61",
-    "state": "Kentucky"
+    "state": "Kentucky",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LMK/95,71/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LMK/95,71/forecast/hourly"
   },
   {
     "city": "Pittsburgh",
@@ -565,7 +677,9 @@
     "longitude": -79.9958864,
     "population": "305841",
     "rank": "62",
-    "state": "Pennsylvania"
+    "state": "Pennsylvania",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PBZ/78,66/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PBZ/78,66/forecast/hourly"
   },
   {
     "city": "Anchorage",
@@ -574,7 +688,9 @@
     "longitude": -149.9002778,
     "population": "300950",
     "rank": "63",
-    "state": "Alaska"
+    "state": "Alaska",
+    "dailyForecast": null,
+    "hourlyForecast": null
   },
   {
     "city": "Stockton",
@@ -583,7 +699,9 @@
     "longitude": -121.2907796,
     "population": "298118",
     "rank": "64",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/STO/43,39/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/STO/43,39/forecast/hourly"
   },
   {
     "city": "Cincinnati",
@@ -592,7 +710,9 @@
     "longitude": -84.5120196,
     "population": "297517",
     "rank": "65",
-    "state": "Ohio"
+    "state": "Ohio",
+    "dailyForecast": "https://api.weather.gov/gridpoints/ILN/36,38/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/ILN/36,38/forecast/hourly"
   },
   {
     "city": "St. Paul",
@@ -601,7 +721,9 @@
     "longitude": -93.0899578,
     "population": "294873",
     "rank": "66",
-    "state": "Minnesota"
+    "state": "Minnesota",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MPX/114,71/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MPX/114,71/forecast/hourly"
   },
   {
     "city": "Toledo",
@@ -610,7 +732,9 @@
     "longitude": -83.55521200000001,
     "population": "282313",
     "rank": "67",
-    "state": "Ohio"
+    "state": "Ohio",
+    "dailyForecast": "https://api.weather.gov/gridpoints/CLE/19,67/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/CLE/19,67/forecast/hourly"
   },
   {
     "city": "Greensboro",
@@ -619,7 +743,9 @@
     "longitude": -79.7919754,
     "population": "279639",
     "rank": "68",
-    "state": "North Carolina"
+    "state": "North Carolina",
+    "dailyForecast": "https://api.weather.gov/gridpoints/RAH/32,66/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/RAH/32,66/forecast/hourly"
   },
   {
     "city": "Newark",
@@ -628,7 +754,9 @@
     "longitude": -74.1723667,
     "population": "278427",
     "rank": "69",
-    "state": "New Jersey"
+    "state": "New Jersey",
+    "dailyForecast": "https://api.weather.gov/gridpoints/OKX/27,35/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/OKX/27,35/forecast/hourly"
   },
   {
     "city": "Plano",
@@ -637,7 +765,9 @@
     "longitude": -96.6988856,
     "population": "274409",
     "rank": "70",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FWD/93,115/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FWD/93,115/forecast/hourly"
   },
   {
     "city": "Henderson",
@@ -646,7 +776,9 @@
     "longitude": -114.9817213,
     "population": "270811",
     "rank": "71",
-    "state": "Nevada"
+    "state": "Nevada",
+    "dailyForecast": "https://api.weather.gov/gridpoints/VEF/127,91/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/VEF/127,91/forecast/hourly"
   },
   {
     "city": "Lincoln",
@@ -655,7 +787,9 @@
     "longitude": -96.6851982,
     "population": "268738",
     "rank": "72",
-    "state": "Nebraska"
+    "state": "Nebraska",
+    "dailyForecast": "https://api.weather.gov/gridpoints/OAX/57,40/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/OAX/57,40/forecast/hourly"
   },
   {
     "city": "Buffalo",
@@ -664,7 +798,9 @@
     "longitude": -78.8783689,
     "population": "258959",
     "rank": "73",
-    "state": "New York"
+    "state": "New York",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BUF/36,47/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BUF/36,47/forecast/hourly"
   },
   {
     "city": "Jersey City",
@@ -673,7 +809,9 @@
     "longitude": -74.0776417,
     "population": "257342",
     "rank": "74",
-    "state": "New Jersey"
+    "state": "New Jersey",
+    "dailyForecast": "https://api.weather.gov/gridpoints/OKX/31,35/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/OKX/31,35/forecast/hourly"
   },
   {
     "city": "Chula Vista",
@@ -682,7 +820,9 @@
     "longitude": -117.0841955,
     "population": "256780",
     "rank": "75",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/59,10/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/59,10/forecast/hourly"
   },
   {
     "city": "Fort Wayne",
@@ -691,7 +831,9 @@
     "longitude": -85.1393513,
     "population": "256496",
     "rank": "76",
-    "state": "Indiana"
+    "state": "Indiana",
+    "dailyForecast": "https://api.weather.gov/gridpoints/IWX/69,38/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/IWX/69,38/forecast/hourly"
   },
   {
     "city": "Orlando",
@@ -700,7 +842,9 @@
     "longitude": -81.3792365,
     "population": "255483",
     "rank": "77",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MLB/26,68/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MLB/26,68/forecast/hourly"
   },
   {
     "city": "St. Petersburg",
@@ -709,7 +853,9 @@
     "longitude": -82.64,
     "population": "249688",
     "rank": "78",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/TBW/65,89/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/TBW/65,89/forecast/hourly"
   },
   {
     "city": "Chandler",
@@ -718,7 +864,9 @@
     "longitude": -111.8412502,
     "population": "249146",
     "rank": "79",
-    "state": "Arizona"
+    "state": "Arizona",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PSR/167,50/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PSR/167,50/forecast/hourly"
   },
   {
     "city": "Laredo",
@@ -727,7 +875,9 @@
     "longitude": -99.48032409999999,
     "population": "248142",
     "rank": "80",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/CRP/29,25/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/CRP/29,25/forecast/hourly"
   },
   {
     "city": "Norfolk",
@@ -736,7 +886,9 @@
     "longitude": -76.28587259999999,
     "population": "246139",
     "rank": "81",
-    "state": "Virginia"
+    "state": "Virginia",
+    "dailyForecast": "https://api.weather.gov/gridpoints/AKQ/90,52/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/AKQ/90,52/forecast/hourly"
   },
   {
     "city": "Durham",
@@ -745,7 +897,9 @@
     "longitude": -78.898619,
     "population": "245475",
     "rank": "82",
-    "state": "North Carolina"
+    "state": "North Carolina",
+    "dailyForecast": "https://api.weather.gov/gridpoints/RAH/64,66/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/RAH/64,66/forecast/hourly"
   },
   {
     "city": "Madison",
@@ -754,7 +908,9 @@
     "longitude": -89.4012302,
     "population": "243344",
     "rank": "83",
-    "state": "Wisconsin"
+    "state": "Wisconsin",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MKX/38,64/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MKX/38,64/forecast/hourly"
   },
   {
     "city": "Lubbock",
@@ -763,7 +919,9 @@
     "longitude": -101.8551665,
     "population": "239538",
     "rank": "84",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LUB/49,33/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LUB/49,33/forecast/hourly"
   },
   {
     "city": "Irvine",
@@ -772,7 +930,9 @@
     "longitude": -117.7946942,
     "population": "236716",
     "rank": "85",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/41,60/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/41,60/forecast/hourly"
   },
   {
     "city": "Winston-Salem",
@@ -781,7 +941,9 @@
     "longitude": -80.244216,
     "population": "236441",
     "rank": "86",
-    "state": "North Carolina"
+    "state": "North Carolina",
+    "dailyForecast": "https://api.weather.gov/gridpoints/RAH/15,65/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/RAH/15,65/forecast/hourly"
   },
   {
     "city": "Glendale",
@@ -790,7 +952,9 @@
     "longitude": -112.1859866,
     "population": "234632",
     "rank": "87",
-    "state": "Arizona"
+    "state": "Arizona",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PSR/155,62/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PSR/155,62/forecast/hourly"
   },
   {
     "city": "Garland",
@@ -799,7 +963,9 @@
     "longitude": -96.63888329999999,
     "population": "234566",
     "rank": "88",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FWD/95,110/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FWD/95,110/forecast/hourly"
   },
   {
     "city": "Hialeah",
@@ -808,7 +974,9 @@
     "longitude": -80.2781057,
     "population": "233394",
     "rank": "89",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MFL/106,54/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MFL/106,54/forecast/hourly"
   },
   {
     "city": "Reno",
@@ -817,7 +985,9 @@
     "longitude": -119.8138027,
     "population": "233294",
     "rank": "90",
-    "state": "Nevada"
+    "state": "Nevada",
+    "dailyForecast": "https://api.weather.gov/gridpoints/REV/45,106/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/REV/45,106/forecast/hourly"
   },
   {
     "city": "Chesapeake",
@@ -826,7 +996,9 @@
     "longitude": -76.2874927,
     "population": "230571",
     "rank": "91",
-    "state": "Virginia"
+    "state": "Virginia",
+    "dailyForecast": "https://api.weather.gov/gridpoints/AKQ/91,48/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/AKQ/91,48/forecast/hourly"
   },
   {
     "city": "Gilbert",
@@ -835,7 +1007,9 @@
     "longitude": -111.789027,
     "population": "229972",
     "rank": "92",
-    "state": "Arizona"
+    "state": "Arizona",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PSR/169,52/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PSR/169,52/forecast/hourly"
   },
   {
     "city": "Baton Rouge",
@@ -844,7 +1018,9 @@
     "longitude": -91.1403196,
     "population": "229426",
     "rank": "93",
-    "state": "Louisiana"
+    "state": "Louisiana",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LIX/26,109/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LIX/26,109/forecast/hourly"
   },
   {
     "city": "Irving",
@@ -853,7 +1029,9 @@
     "longitude": -96.9488945,
     "population": "228653",
     "rank": "94",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FWD/84,106/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FWD/84,106/forecast/hourly"
   },
   {
     "city": "Scottsdale",
@@ -862,7 +1040,9 @@
     "longitude": -111.9260519,
     "population": "226918",
     "rank": "95",
-    "state": "Arizona"
+    "state": "Arizona",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PSR/165,59/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PSR/165,59/forecast/hourly"
   },
   {
     "city": "North Las Vegas",
@@ -871,7 +1051,9 @@
     "longitude": -115.1175013,
     "population": "226877",
     "rank": "96",
-    "state": "Nevada"
+    "state": "Nevada",
+    "dailyForecast": "https://api.weather.gov/gridpoints/VEF/124,99/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/VEF/124,99/forecast/hourly"
   },
   {
     "city": "Fremont",
@@ -880,7 +1062,9 @@
     "longitude": -121.9885719,
     "population": "224922",
     "rank": "97",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MTR/98,92/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MTR/98,92/forecast/hourly"
   },
   {
     "city": "Boise City",
@@ -889,7 +1073,9 @@
     "longitude": -116.2146068,
     "population": "214237",
     "rank": "98",
-    "state": "Idaho"
+    "state": "Idaho",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOI/133,86/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOI/133,86/forecast/hourly"
   },
   {
     "city": "Richmond",
@@ -898,7 +1084,9 @@
     "longitude": -77.4360481,
     "population": "214114",
     "rank": "99",
-    "state": "Virginia"
+    "state": "Virginia",
+    "dailyForecast": "https://api.weather.gov/gridpoints/AKQ/46,77/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/AKQ/46,77/forecast/hourly"
   },
   {
     "city": "San Bernardino",
@@ -907,7 +1095,9 @@
     "longitude": -117.2897652,
     "population": "213708",
     "rank": "100",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/62,76/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/62,76/forecast/hourly"
   },
   {
     "city": "Birmingham",
@@ -916,7 +1106,9 @@
     "longitude": -86.80248999999999,
     "population": "212113",
     "rank": "101",
-    "state": "Alabama"
+    "state": "Alabama",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BMX/59,84/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BMX/59,84/forecast/hourly"
   },
   {
     "city": "Spokane",
@@ -925,7 +1117,9 @@
     "longitude": -117.4260466,
     "population": "210721",
     "rank": "102",
-    "state": "Washington"
+    "state": "Washington",
+    "dailyForecast": "https://api.weather.gov/gridpoints/OTX/140,90/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/OTX/140,90/forecast/hourly"
   },
   {
     "city": "Rochester",
@@ -934,7 +1128,9 @@
     "longitude": -77.6109219,
     "population": "210358",
     "rank": "103",
-    "state": "New York"
+    "state": "New York",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BUF/77,65/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BUF/77,65/forecast/hourly"
   },
   {
     "city": "Des Moines",
@@ -943,7 +1139,9 @@
     "longitude": -93.6091064,
     "population": "207510",
     "rank": "104",
-    "state": "Iowa"
+    "state": "Iowa",
+    "dailyForecast": "https://api.weather.gov/gridpoints/DMX/74,50/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/DMX/74,50/forecast/hourly"
   },
   {
     "city": "Modesto",
@@ -952,7 +1150,9 @@
     "longitude": -120.9968782,
     "population": "204933",
     "rank": "105",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/STO/50,23/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/STO/50,23/forecast/hourly"
   },
   {
     "city": "Fayetteville",
@@ -961,7 +1161,9 @@
     "longitude": -78.87835849999999,
     "population": "204408",
     "rank": "106",
-    "state": "North Carolina"
+    "state": "North Carolina",
+    "dailyForecast": "https://api.weather.gov/gridpoints/RAH/70,24/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/RAH/70,24/forecast/hourly"
   },
   {
     "city": "Tacoma",
@@ -970,7 +1172,9 @@
     "longitude": -122.4442906,
     "population": "203446",
     "rank": "107",
-    "state": "Washington"
+    "state": "Washington",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SEW/118,52/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SEW/118,52/forecast/hourly"
   },
   {
     "city": "Oxnard",
@@ -979,7 +1183,9 @@
     "longitude": -119.1770516,
     "population": "203007",
     "rank": "108",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/122,57/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/122,57/forecast/hourly"
   },
   {
     "city": "Fontana",
@@ -988,7 +1194,9 @@
     "longitude": -117.435048,
     "population": "203003",
     "rank": "109",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/57,76/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/57,76/forecast/hourly"
   },
   {
     "city": "Columbus",
@@ -997,7 +1205,9 @@
     "longitude": -84.9877094,
     "population": "202824",
     "rank": "110",
-    "state": "Georgia"
+    "state": "Georgia",
+    "dailyForecast": "https://api.weather.gov/gridpoints/ILN/85,81/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/ILN/85,81/forecast/hourly"
   },
   {
     "city": "Montgomery",
@@ -1006,7 +1216,9 @@
     "longitude": -86.2999689,
     "population": "201332",
     "rank": "111",
-    "state": "Alabama"
+    "state": "Alabama",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BMX/81,35/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BMX/81,35/forecast/hourly"
   },
   {
     "city": "Moreno Valley",
@@ -1015,7 +1227,9 @@
     "longitude": -117.2296717,
     "population": "201175",
     "rank": "112",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/63,68/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/63,68/forecast/hourly"
   },
   {
     "city": "Shreveport",
@@ -1024,7 +1238,9 @@
     "longitude": -93.7501789,
     "population": "200327",
     "rank": "113",
-    "state": "Louisiana"
+    "state": "Louisiana",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SHV/74,69/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SHV/74,69/forecast/hourly"
   },
   {
     "city": "Aurora",
@@ -1033,7 +1249,9 @@
     "longitude": -88.32007150000001,
     "population": "199963",
     "rank": "114",
-    "state": "Illinois"
+    "state": "Illinois",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOU/68,61/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOU/68,61/forecast/hourly"
   },
   {
     "city": "Yonkers",
@@ -1042,7 +1260,9 @@
     "longitude": -73.89874689999999,
     "population": "199766",
     "rank": "115",
-    "state": "New York"
+    "state": "New York",
+    "dailyForecast": "https://api.weather.gov/gridpoints/OKX/35,45/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/OKX/35,45/forecast/hourly"
   },
   {
     "city": "Akron",
@@ -1051,7 +1271,9 @@
     "longitude": -81.51900529999999,
     "population": "198100",
     "rank": "116",
-    "state": "Ohio"
+    "state": "Ohio",
+    "dailyForecast": "https://api.weather.gov/gridpoints/CLE/91,47/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/CLE/91,47/forecast/hourly"
   },
   {
     "city": "Huntington Beach",
@@ -1060,7 +1282,9 @@
     "longitude": -117.9992265,
     "population": "197575",
     "rank": "117",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/33,60/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/33,60/forecast/hourly"
   },
   {
     "city": "Little Rock",
@@ -1069,7 +1293,9 @@
     "longitude": -92.28959479999999,
     "population": "197357",
     "rank": "118",
-    "state": "Arkansas"
+    "state": "Arkansas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LZK/82,73/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LZK/82,73/forecast/hourly"
   },
   {
     "city": "Augusta-Richmond County",
@@ -1078,7 +1304,9 @@
     "longitude": -82.0105148,
     "population": "197350",
     "rank": "119",
-    "state": "Georgia"
+    "state": "Georgia",
+    "dailyForecast": "https://api.weather.gov/gridpoints/CAE/31,34/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/CAE/31,34/forecast/hourly"
   },
   {
     "city": "Amarillo",
@@ -1087,7 +1315,9 @@
     "longitude": -101.8312969,
     "population": "196429",
     "rank": "120",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/AMA/48,26/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/AMA/48,26/forecast/hourly"
   },
   {
     "city": "Glendale",
@@ -1096,7 +1326,9 @@
     "longitude": -118.255075,
     "population": "196021",
     "rank": "121",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PSR/155,62/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PSR/155,62/forecast/hourly"
   },
   {
     "city": "Mobile",
@@ -1105,7 +1337,9 @@
     "longitude": -88.0398912,
     "population": "194899",
     "rank": "122",
-    "state": "Alabama"
+    "state": "Alabama",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MOB/52,67/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MOB/52,67/forecast/hourly"
   },
   {
     "city": "Grand Rapids",
@@ -1114,7 +1348,9 @@
     "longitude": -85.6680863,
     "population": "192294",
     "rank": "123",
-    "state": "Michigan"
+    "state": "Michigan",
+    "dailyForecast": "https://api.weather.gov/gridpoints/GRR/41,47/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/GRR/41,47/forecast/hourly"
   },
   {
     "city": "Salt Lake City",
@@ -1123,7 +1359,9 @@
     "longitude": -111.8910474,
     "population": "191180",
     "rank": "124",
-    "state": "Utah"
+    "state": "Utah",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SLC/100,175/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SLC/100,175/forecast/hourly"
   },
   {
     "city": "Tallahassee",
@@ -1132,7 +1370,9 @@
     "longitude": -84.28073289999999,
     "population": "186411",
     "rank": "125",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/TAE/84,86/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/TAE/84,86/forecast/hourly"
   },
   {
     "city": "Huntsville",
@@ -1141,7 +1381,9 @@
     "longitude": -86.5861037,
     "population": "186254",
     "rank": "126",
-    "state": "Alabama"
+    "state": "Alabama",
+    "dailyForecast": "https://api.weather.gov/gridpoints/HUN/63,43/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/HUN/63,43/forecast/hourly"
   },
   {
     "city": "Grand Prairie",
@@ -1150,7 +1392,9 @@
     "longitude": -96.99778459999999,
     "population": "183372",
     "rank": "127",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FWD/82,103/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FWD/82,103/forecast/hourly"
   },
   {
     "city": "Knoxville",
@@ -1159,7 +1403,9 @@
     "longitude": -83.9207392,
     "population": "183270",
     "rank": "128",
-    "state": "Tennessee"
+    "state": "Tennessee",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MRX/71,51/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MRX/71,51/forecast/hourly"
   },
   {
     "city": "Worcester",
@@ -1168,7 +1414,9 @@
     "longitude": -71.8022934,
     "population": "182544",
     "rank": "129",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOX/47,81/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOX/47,81/forecast/hourly"
   },
   {
     "city": "Newport News",
@@ -1177,7 +1425,9 @@
     "longitude": -76.4730122,
     "population": "182020",
     "rank": "130",
-    "state": "Virginia"
+    "state": "Virginia",
+    "dailyForecast": "https://api.weather.gov/gridpoints/AKQ/82,61/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/AKQ/82,61/forecast/hourly"
   },
   {
     "city": "Brownsville",
@@ -1186,7 +1436,9 @@
     "longitude": -97.4974838,
     "population": "181860",
     "rank": "131",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BRO/78,5/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BRO/78,5/forecast/hourly"
   },
   {
     "city": "Overland Park",
@@ -1195,7 +1447,9 @@
     "longitude": -94.6707917,
     "population": "181260",
     "rank": "132",
-    "state": "Kansas"
+    "state": "Kansas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/EAX/41,45/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/EAX/41,45/forecast/hourly"
   },
   {
     "city": "Santa Clarita",
@@ -1204,7 +1458,9 @@
     "longitude": -118.542586,
     "population": "179590",
     "rank": "133",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/147,62/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/147,62/forecast/hourly"
   },
   {
     "city": "Providence",
@@ -1213,7 +1469,9 @@
     "longitude": -71.4128343,
     "population": "177994",
     "rank": "134",
-    "state": "Rhode Island"
+    "state": "Rhode Island",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOX/64,64/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOX/64,64/forecast/hourly"
   },
   {
     "city": "Garden Grove",
@@ -1222,7 +1480,9 @@
     "longitude": -117.9414477,
     "population": "175140",
     "rank": "135",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/36,65/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/36,65/forecast/hourly"
   },
   {
     "city": "Chattanooga",
@@ -1231,7 +1491,9 @@
     "longitude": -85.3096801,
     "population": "173366",
     "rank": "136",
-    "state": "Tennessee"
+    "state": "Tennessee",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MRX/24,7/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MRX/24,7/forecast/hourly"
   },
   {
     "city": "Oceanside",
@@ -1240,7 +1502,9 @@
     "longitude": -117.3794834,
     "population": "172794",
     "rank": "137",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/52,36/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/52,36/forecast/hourly"
   },
   {
     "city": "Jackson",
@@ -1249,7 +1513,9 @@
     "longitude": -90.1848103,
     "population": "172638",
     "rank": "138",
-    "state": "Mississippi"
+    "state": "Mississippi",
+    "dailyForecast": "https://api.weather.gov/gridpoints/JAN/76,63/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/JAN/76,63/forecast/hourly"
   },
   {
     "city": "Fort Lauderdale",
@@ -1258,7 +1524,9 @@
     "longitude": -80.13731740000001,
     "population": "172389",
     "rank": "139",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MFL/110,66/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MFL/110,66/forecast/hourly"
   },
   {
     "city": "Santa Rosa",
@@ -1267,7 +1535,9 @@
     "longitude": -122.7140548,
     "population": "171990",
     "rank": "140",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MTR/81,137/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MTR/81,137/forecast/hourly"
   },
   {
     "city": "Rancho Cucamonga",
@@ -1276,7 +1546,9 @@
     "longitude": -117.5931084,
     "population": "171386",
     "rank": "141",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/51,77/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/51,77/forecast/hourly"
   },
   {
     "city": "Port St. Lucie",
@@ -1285,7 +1557,9 @@
     "longitude": -80.3582261,
     "population": "171016",
     "rank": "142",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MLB/71,17/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MLB/71,17/forecast/hourly"
   },
   {
     "city": "Tempe",
@@ -1294,7 +1568,9 @@
     "longitude": -111.9400054,
     "population": "168228",
     "rank": "143",
-    "state": "Arizona"
+    "state": "Arizona",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PSR/164,56/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PSR/164,56/forecast/hourly"
   },
   {
     "city": "Ontario",
@@ -1303,7 +1579,9 @@
     "longitude": -117.6508876,
     "population": "167500",
     "rank": "144",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/49,76/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/49,76/forecast/hourly"
   },
   {
     "city": "Vancouver",
@@ -1312,7 +1590,9 @@
     "longitude": -122.6614861,
     "population": "167405",
     "rank": "145",
-    "state": "Washington"
+    "state": "Washington",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PQR/114,109/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PQR/114,109/forecast/hourly"
   },
   {
     "city": "Cape Coral",
@@ -1321,7 +1601,9 @@
     "longitude": -81.9495331,
     "population": "165831",
     "rank": "146",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/TBW/97,39/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/TBW/97,39/forecast/hourly"
   },
   {
     "city": "Sioux Falls",
@@ -1330,7 +1612,9 @@
     "longitude": -96.73110340000001,
     "population": "164676",
     "rank": "147",
-    "state": "South Dakota"
+    "state": "South Dakota",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FSD/98,64/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FSD/98,64/forecast/hourly"
   },
   {
     "city": "Springfield",
@@ -1339,7 +1623,9 @@
     "longitude": -93.29229889999999,
     "population": "164122",
     "rank": "148",
-    "state": "Missouri"
+    "state": "Missouri",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGF/67,35/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGF/67,35/forecast/hourly"
   },
   {
     "city": "Peoria",
@@ -1348,7 +1634,9 @@
     "longitude": -112.2373779,
     "population": "162592",
     "rank": "149",
-    "state": "Arizona"
+    "state": "Arizona",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PSR/154,64/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PSR/154,64/forecast/hourly"
   },
   {
     "city": "Pembroke Pines",
@@ -1357,7 +1645,9 @@
     "longitude": -80.2962555,
     "population": "162329",
     "rank": "150",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MFL/105,60/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MFL/105,60/forecast/hourly"
   },
   {
     "city": "Elk Grove",
@@ -1366,7 +1656,9 @@
     "longitude": -121.3716178,
     "population": "161007",
     "rank": "151",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/STO/44,60/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/STO/44,60/forecast/hourly"
   },
   {
     "city": "Salem",
@@ -1375,7 +1667,9 @@
     "longitude": -123.0350963,
     "population": "160614",
     "rank": "152",
-    "state": "Oregon"
+    "state": "Oregon",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PQR/96,80/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PQR/96,80/forecast/hourly"
   },
   {
     "city": "Lancaster",
@@ -1384,7 +1678,9 @@
     "longitude": -118.1541632,
     "population": "159523",
     "rank": "153",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/163,72/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/163,72/forecast/hourly"
   },
   {
     "city": "Corona",
@@ -1393,7 +1689,9 @@
     "longitude": -117.5664384,
     "population": "159503",
     "rank": "154",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/50,67/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/50,67/forecast/hourly"
   },
   {
     "city": "Eugene",
@@ -1402,7 +1700,9 @@
     "longitude": -123.0867536,
     "population": "159190",
     "rank": "155",
-    "state": "Oregon"
+    "state": "Oregon",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PQR/85,39/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PQR/85,39/forecast/hourly"
   },
   {
     "city": "Palmdale",
@@ -1411,7 +1711,9 @@
     "longitude": -118.1164613,
     "population": "157161",
     "rank": "156",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/164,67/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/164,67/forecast/hourly"
   },
   {
     "city": "Salinas",
@@ -1420,7 +1722,9 @@
     "longitude": -121.6555013,
     "population": "155662",
     "rank": "157",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MTR/102,52/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MTR/102,52/forecast/hourly"
   },
   {
     "city": "Springfield",
@@ -1429,7 +1733,9 @@
     "longitude": -72.589811,
     "population": "153703",
     "rank": "158",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGF/67,35/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGF/67,35/forecast/hourly"
   },
   {
     "city": "Pasadena",
@@ -1438,7 +1744,9 @@
     "longitude": -95.2091006,
     "population": "152735",
     "rank": "159",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/HGX/71,93/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/HGX/71,93/forecast/hourly"
   },
   {
     "city": "Fort Collins",
@@ -1447,7 +1755,9 @@
     "longitude": -105.084423,
     "population": "152061",
     "rank": "160",
-    "state": "Colorado"
+    "state": "Colorado",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOU/63,100/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOU/63,100/forecast/hourly"
   },
   {
     "city": "Hayward",
@@ -1456,7 +1766,9 @@
     "longitude": -122.0807964,
     "population": "151574",
     "rank": "161",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MTR/96,98/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MTR/96,98/forecast/hourly"
   },
   {
     "city": "Pomona",
@@ -1465,7 +1777,9 @@
     "longitude": -117.7499909,
     "population": "151348",
     "rank": "162",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/173,42/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/173,42/forecast/hourly"
   },
   {
     "city": "Cary",
@@ -1474,7 +1788,9 @@
     "longitude": -78.7811169,
     "population": "151088",
     "rank": "163",
-    "state": "North Carolina"
+    "state": "North Carolina",
+    "dailyForecast": "https://api.weather.gov/gridpoints/RAH/69,57/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/RAH/69,57/forecast/hourly"
   },
   {
     "city": "Rockford",
@@ -1483,7 +1799,9 @@
     "longitude": -89.0939952,
     "population": "150251",
     "rank": "164",
-    "state": "Illinois"
+    "state": "Illinois",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOT/25,89/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOT/25,89/forecast/hourly"
   },
   {
     "city": "Alexandria",
@@ -1492,7 +1810,9 @@
     "longitude": -77.0469214,
     "population": "148892",
     "rank": "165",
-    "state": "Virginia"
+    "state": "Virginia",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LWX/97,67/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LWX/97,67/forecast/hourly"
   },
   {
     "city": "Escondido",
@@ -1501,7 +1821,9 @@
     "longitude": -117.086421,
     "population": "148738",
     "rank": "166",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/62,31/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/62,31/forecast/hourly"
   },
   {
     "city": "McKinney",
@@ -1510,7 +1832,9 @@
     "longitude": -96.6397822,
     "population": "148559",
     "rank": "167",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FWD/95,122/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FWD/95,122/forecast/hourly"
   },
   {
     "city": "Kansas City",
@@ -1519,7 +1843,9 @@
     "longitude": -94.6274636,
     "population": "148483",
     "rank": "168",
-    "state": "Kansas"
+    "state": "Kansas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/EAX/44,51/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/EAX/44,51/forecast/hourly"
   },
   {
     "city": "Joliet",
@@ -1528,7 +1854,9 @@
     "longitude": -88.0817251,
     "population": "147806",
     "rank": "169",
-    "state": "Illinois"
+    "state": "Illinois",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOT/61,56/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOT/61,56/forecast/hourly"
   },
   {
     "city": "Sunnyvale",
@@ -1537,7 +1865,9 @@
     "longitude": -122.0363496,
     "population": "147559",
     "rank": "170",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MTR/94,85/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MTR/94,85/forecast/hourly"
   },
   {
     "city": "Torrance",
@@ -1546,7 +1876,9 @@
     "longitude": -118.3406288,
     "population": "147478",
     "rank": "171",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/150,36/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/150,36/forecast/hourly"
   },
   {
     "city": "Bridgeport",
@@ -1555,7 +1887,9 @@
     "longitude": -73.19517669999999,
     "population": "147216",
     "rank": "172",
-    "state": "Connecticut"
+    "state": "Connecticut",
+    "dailyForecast": "https://api.weather.gov/gridpoints/OKX/57,61/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/OKX/57,61/forecast/hourly"
   },
   {
     "city": "Lakewood",
@@ -1564,7 +1898,9 @@
     "longitude": -105.0813734,
     "population": "147214",
     "rank": "173",
-    "state": "Colorado"
+    "state": "Colorado",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOU/60,60/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOU/60,60/forecast/hourly"
   },
   {
     "city": "Hollywood",
@@ -1573,7 +1909,9 @@
     "longitude": -80.1494901,
     "population": "146526",
     "rank": "174",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MFL/110,61/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MFL/110,61/forecast/hourly"
   },
   {
     "city": "Paterson",
@@ -1582,7 +1920,9 @@
     "longitude": -74.17181099999999,
     "population": "145948",
     "rank": "175",
-    "state": "New Jersey"
+    "state": "New Jersey",
+    "dailyForecast": "https://api.weather.gov/gridpoints/OKX/26,43/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/OKX/26,43/forecast/hourly"
   },
   {
     "city": "Naperville",
@@ -1591,7 +1931,9 @@
     "longitude": -88.1535352,
     "population": "144864",
     "rank": "176",
-    "state": "Illinois"
+    "state": "Illinois",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOT/58,66/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOT/58,66/forecast/hourly"
   },
   {
     "city": "Syracuse",
@@ -1600,7 +1942,9 @@
     "longitude": -76.14742439999999,
     "population": "144669",
     "rank": "177",
-    "state": "New York"
+    "state": "New York",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BGM/52,99/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BGM/52,99/forecast/hourly"
   },
   {
     "city": "Mesquite",
@@ -1609,7 +1953,9 @@
     "longitude": -96.5991593,
     "population": "143484",
     "rank": "178",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FWD/97,103/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FWD/97,103/forecast/hourly"
   },
   {
     "city": "Dayton",
@@ -1618,7 +1964,9 @@
     "longitude": -84.1916069,
     "population": "143355",
     "rank": "179",
-    "state": "Ohio"
+    "state": "Ohio",
+    "dailyForecast": "https://api.weather.gov/gridpoints/ILN/44,69/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/ILN/44,69/forecast/hourly"
   },
   {
     "city": "Savannah",
@@ -1627,7 +1975,9 @@
     "longitude": -81.09983419999999,
     "population": "142772",
     "rank": "180",
-    "state": "Georgia"
+    "state": "Georgia",
+    "dailyForecast": "https://api.weather.gov/gridpoints/CHS/47,41/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/CHS/47,41/forecast/hourly"
   },
   {
     "city": "Clarksville",
@@ -1636,7 +1986,9 @@
     "longitude": -87.3594528,
     "population": "142357",
     "rank": "181",
-    "state": "Tennessee"
+    "state": "Tennessee",
+    "dailyForecast": "https://api.weather.gov/gridpoints/OHX/28,72/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/OHX/28,72/forecast/hourly"
   },
   {
     "city": "Orange",
@@ -1645,7 +1997,9 @@
     "longitude": -117.8531119,
     "population": "139969",
     "rank": "182",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/39,65/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/39,65/forecast/hourly"
   },
   {
     "city": "Pasadena",
@@ -1654,7 +2008,9 @@
     "longitude": -118.1445155,
     "population": "139731",
     "rank": "183",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/HGX/71,93/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/HGX/71,93/forecast/hourly"
   },
   {
     "city": "Fullerton",
@@ -1663,7 +2019,9 @@
     "longitude": -117.9242966,
     "population": "138981",
     "rank": "184",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/37,69/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/37,69/forecast/hourly"
   },
   {
     "city": "Killeen",
@@ -1672,7 +2030,9 @@
     "longitude": -97.72779589999999,
     "population": "137147",
     "rank": "185",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FWD/53,31/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FWD/53,31/forecast/hourly"
   },
   {
     "city": "Frisco",
@@ -1681,7 +2041,9 @@
     "longitude": -96.82361159999999,
     "population": "136791",
     "rank": "186",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FWD/88,120/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FWD/88,120/forecast/hourly"
   },
   {
     "city": "Hampton",
@@ -1690,7 +2052,9 @@
     "longitude": -76.34522179999999,
     "population": "136699",
     "rank": "187",
-    "state": "Virginia"
+    "state": "Virginia",
+    "dailyForecast": "https://api.weather.gov/gridpoints/AKQ/87,59/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/AKQ/87,59/forecast/hourly"
   },
   {
     "city": "McAllen",
@@ -1699,7 +2063,9 @@
     "longitude": -98.23001239999999,
     "population": "136639",
     "rank": "188",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BRO/49,19/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BRO/49,19/forecast/hourly"
   },
   {
     "city": "Warren",
@@ -1708,7 +2074,9 @@
     "longitude": -83.01465259999999,
     "population": "134873",
     "rank": "189",
-    "state": "Michigan"
+    "state": "Michigan",
+    "dailyForecast": "https://api.weather.gov/gridpoints/DTX/66,42/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/DTX/66,42/forecast/hourly"
   },
   {
     "city": "Bellevue",
@@ -1717,7 +2085,9 @@
     "longitude": -122.2006786,
     "population": "133992",
     "rank": "190",
-    "state": "Washington"
+    "state": "Washington",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SEW/129,67/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SEW/129,67/forecast/hourly"
   },
   {
     "city": "West Valley City",
@@ -1726,7 +2096,9 @@
     "longitude": -112.0010501,
     "population": "133579",
     "rank": "191",
-    "state": "Utah"
+    "state": "Utah",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SLC/96,173/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SLC/96,173/forecast/hourly"
   },
   {
     "city": "Columbia",
@@ -1735,7 +2107,9 @@
     "longitude": -81.0348144,
     "population": "133358",
     "rank": "192",
-    "state": "South Carolina"
+    "state": "South Carolina",
+    "dailyForecast": "https://api.weather.gov/gridpoints/CAE/65,61/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/CAE/65,61/forecast/hourly"
   },
   {
     "city": "Olathe",
@@ -1744,7 +2118,9 @@
     "longitude": -94.81912849999999,
     "population": "131885",
     "rank": "193",
-    "state": "Kansas"
+    "state": "Kansas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/EAX/35,41/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/EAX/35,41/forecast/hourly"
   },
   {
     "city": "Sterling Heights",
@@ -1753,7 +2129,9 @@
     "longitude": -83.0302033,
     "population": "131224",
     "rank": "194",
-    "state": "Michigan"
+    "state": "Michigan",
+    "dailyForecast": "https://api.weather.gov/gridpoints/DTX/65,45/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/DTX/65,45/forecast/hourly"
   },
   {
     "city": "New Haven",
@@ -1762,7 +2140,9 @@
     "longitude": -72.9278835,
     "population": "130660",
     "rank": "195",
-    "state": "Connecticut"
+    "state": "Connecticut",
+    "dailyForecast": "https://api.weather.gov/gridpoints/OKX/66,68/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/OKX/66,68/forecast/hourly"
   },
   {
     "city": "Miramar",
@@ -1771,7 +2151,9 @@
     "longitude": -80.30356019999999,
     "population": "130288",
     "rank": "196",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MFL/104,59/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MFL/104,59/forecast/hourly"
   },
   {
     "city": "Waco",
@@ -1780,7 +2162,9 @@
     "longitude": -97.1466695,
     "population": "129030",
     "rank": "197",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FWD/75,50/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FWD/75,50/forecast/hourly"
   },
   {
     "city": "Thousand Oaks",
@@ -1789,7 +2173,9 @@
     "longitude": -118.8375937,
     "population": "128731",
     "rank": "198",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/135,54/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/135,54/forecast/hourly"
   },
   {
     "city": "Cedar Rapids",
@@ -1798,7 +2184,9 @@
     "longitude": -91.6656232,
     "population": "128429",
     "rank": "199",
-    "state": "Iowa"
+    "state": "Iowa",
+    "dailyForecast": "https://api.weather.gov/gridpoints/DVN/30,86/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/DVN/30,86/forecast/hourly"
   },
   {
     "city": "Charleston",
@@ -1807,7 +2195,9 @@
     "longitude": -79.93105120000001,
     "population": "127999",
     "rank": "200",
-    "state": "South Carolina"
+    "state": "South Carolina",
+    "dailyForecast": "https://api.weather.gov/gridpoints/CHS/87,77/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/CHS/87,77/forecast/hourly"
   },
   {
     "city": "Visalia",
@@ -1816,7 +2206,9 @@
     "longitude": -119.2920585,
     "population": "127763",
     "rank": "201",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/HNX/66,78/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/HNX/66,78/forecast/hourly"
   },
   {
     "city": "Topeka",
@@ -1825,7 +2217,9 @@
     "longitude": -95.68901849999999,
     "population": "127679",
     "rank": "202",
-    "state": "Kansas"
+    "state": "Kansas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/TOP/81,49/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/TOP/81,49/forecast/hourly"
   },
   {
     "city": "Elizabeth",
@@ -1834,7 +2228,9 @@
     "longitude": -74.2107006,
     "population": "127558",
     "rank": "203",
-    "state": "New Jersey"
+    "state": "New Jersey",
+    "dailyForecast": "https://api.weather.gov/gridpoints/OKX/27,32/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/OKX/27,32/forecast/hourly"
   },
   {
     "city": "Gainesville",
@@ -1843,7 +2239,9 @@
     "longitude": -82.32482619999999,
     "population": "127488",
     "rank": "204",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/JAX/43,32/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/JAX/43,32/forecast/hourly"
   },
   {
     "city": "Thornton",
@@ -1852,7 +2250,9 @@
     "longitude": -104.9719243,
     "population": "127359",
     "rank": "205",
-    "state": "Colorado"
+    "state": "Colorado",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOU/64,67/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOU/64,67/forecast/hourly"
   },
   {
     "city": "Roseville",
@@ -1861,7 +2261,9 @@
     "longitude": -121.2880059,
     "population": "127035",
     "rank": "206",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/STO/50,74/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/STO/50,74/forecast/hourly"
   },
   {
     "city": "Carrollton",
@@ -1870,7 +2272,9 @@
     "longitude": -96.8899636,
     "population": "126700",
     "rank": "207",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FWD/86,113/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FWD/86,113/forecast/hourly"
   },
   {
     "city": "Coral Springs",
@@ -1879,7 +2283,9 @@
     "longitude": -80.2706044,
     "population": "126604",
     "rank": "208",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MFL/104,72/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MFL/104,72/forecast/hourly"
   },
   {
     "city": "Stamford",
@@ -1888,7 +2294,9 @@
     "longitude": -73.5387341,
     "population": "126456",
     "rank": "209",
-    "state": "Connecticut"
+    "state": "Connecticut",
+    "dailyForecast": "https://api.weather.gov/gridpoints/OKX/47,53/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/OKX/47,53/forecast/hourly"
   },
   {
     "city": "Simi Valley",
@@ -1897,7 +2305,9 @@
     "longitude": -118.781482,
     "population": "126181",
     "rank": "210",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/137,58/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/137,58/forecast/hourly"
   },
   {
     "city": "Concord",
@@ -1906,7 +2316,9 @@
     "longitude": -122.0310733,
     "population": "125880",
     "rank": "211",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MTR/100,111/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MTR/100,111/forecast/hourly"
   },
   {
     "city": "Hartford",
@@ -1915,7 +2327,9 @@
     "longitude": -72.6850932,
     "population": "125017",
     "rank": "212",
-    "state": "Connecticut"
+    "state": "Connecticut",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOX/21,54/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOX/21,54/forecast/hourly"
   },
   {
     "city": "Kent",
@@ -1924,7 +2338,9 @@
     "longitude": -122.2348431,
     "population": "124435",
     "rank": "213",
-    "state": "Washington"
+    "state": "Washington",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SEW/126,57/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SEW/126,57/forecast/hourly"
   },
   {
     "city": "Lafayette",
@@ -1933,7 +2349,9 @@
     "longitude": -92.0198427,
     "population": "124276",
     "rank": "214",
-    "state": "Louisiana"
+    "state": "Louisiana",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LCH/105,95/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LCH/105,95/forecast/hourly"
   },
   {
     "city": "Midland",
@@ -1942,7 +2360,9 @@
     "longitude": -102.0779146,
     "population": "123933",
     "rank": "215",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MAF/123,133/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MAF/123,133/forecast/hourly"
   },
   {
     "city": "Surprise",
@@ -1951,7 +2371,9 @@
     "longitude": -112.3679279,
     "population": "123546",
     "rank": "216",
-    "state": "Arizona"
+    "state": "Arizona",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PSR/149,67/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PSR/149,67/forecast/hourly"
   },
   {
     "city": "Denton",
@@ -1960,7 +2382,9 @@
     "longitude": -97.13306829999999,
     "population": "123099",
     "rank": "217",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FWD/77,123/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FWD/77,123/forecast/hourly"
   },
   {
     "city": "Victorville",
@@ -1969,7 +2393,9 @@
     "longitude": -117.2927641,
     "population": "121096",
     "rank": "218",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/65,94/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/65,94/forecast/hourly"
   },
   {
     "city": "Evansville",
@@ -1978,7 +2404,9 @@
     "longitude": -87.5710898,
     "population": "120310",
     "rank": "219",
-    "state": "Indiana"
+    "state": "Indiana",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PAH/166,97/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PAH/166,97/forecast/hourly"
   },
   {
     "city": "Santa Clara",
@@ -1987,7 +2415,9 @@
     "longitude": -121.9552356,
     "population": "120245",
     "rank": "220",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MTR/97,83/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MTR/97,83/forecast/hourly"
   },
   {
     "city": "Abilene",
@@ -1996,7 +2426,9 @@
     "longitude": -99.73314390000002,
     "population": "120099",
     "rank": "221",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SJT/104,98/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SJT/104,98/forecast/hourly"
   },
   {
     "city": "Athens-Clarke County",
@@ -2005,7 +2437,9 @@
     "longitude": -83.357567,
     "population": "119980",
     "rank": "222",
-    "state": "Georgia"
+    "state": "Georgia",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FFC/88,99/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FFC/88,99/forecast/hourly"
   },
   {
     "city": "Vallejo",
@@ -2014,7 +2448,9 @@
     "longitude": -122.2566367,
     "population": "118837",
     "rank": "223",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/STO/10,53/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/STO/10,53/forecast/hourly"
   },
   {
     "city": "Allentown",
@@ -2023,7 +2459,9 @@
     "longitude": -75.4901833,
     "population": "118577",
     "rank": "224",
-    "state": "Pennsylvania"
+    "state": "Pennsylvania",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PHI/34,104/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PHI/34,104/forecast/hourly"
   },
   {
     "city": "Norman",
@@ -2032,7 +2470,9 @@
     "longitude": -97.4394777,
     "population": "118197",
     "rank": "225",
-    "state": "Oklahoma"
+    "state": "Oklahoma",
+    "dailyForecast": "https://api.weather.gov/gridpoints/OUN/100,83/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/OUN/100,83/forecast/hourly"
   },
   {
     "city": "Beaumont",
@@ -2041,7 +2481,9 @@
     "longitude": -94.1265562,
     "population": "117796",
     "rank": "226",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LCH/25,88/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LCH/25,88/forecast/hourly"
   },
   {
     "city": "Independence",
@@ -2050,7 +2492,9 @@
     "longitude": -94.41550679999999,
     "population": "117240",
     "rank": "227",
-    "state": "Missouri"
+    "state": "Missouri",
+    "dailyForecast": "https://api.weather.gov/gridpoints/EAX/50,50/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/EAX/50,50/forecast/hourly"
   },
   {
     "city": "Murfreesboro",
@@ -2059,7 +2503,9 @@
     "longitude": -86.39027,
     "population": "117044",
     "rank": "228",
-    "state": "Tennessee"
+    "state": "Tennessee",
+    "dailyForecast": "https://api.weather.gov/gridpoints/OHX/65,44/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/OHX/65,44/forecast/hourly"
   },
   {
     "city": "Ann Arbor",
@@ -2068,7 +2514,9 @@
     "longitude": -83.7430378,
     "population": "117025",
     "rank": "229",
-    "state": "Michigan"
+    "state": "Michigan",
+    "dailyForecast": "https://api.weather.gov/gridpoints/DTX/42,30/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/DTX/42,30/forecast/hourly"
   },
   {
     "city": "Springfield",
@@ -2077,7 +2525,9 @@
     "longitude": -89.6501481,
     "population": "117006",
     "rank": "230",
-    "state": "Illinois"
+    "state": "Illinois",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGF/67,35/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGF/67,35/forecast/hourly"
   },
   {
     "city": "Berkeley",
@@ -2086,7 +2536,9 @@
     "longitude": -122.272747,
     "population": "116768",
     "rank": "231",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MTR/91,108/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MTR/91,108/forecast/hourly"
   },
   {
     "city": "Peoria",
@@ -2095,7 +2547,9 @@
     "longitude": -89.5889864,
     "population": "116513",
     "rank": "232",
-    "state": "Illinois"
+    "state": "Illinois",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PSR/154,64/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PSR/154,64/forecast/hourly"
   },
   {
     "city": "Provo",
@@ -2104,7 +2558,9 @@
     "longitude": -111.6585337,
     "population": "116288",
     "rank": "233",
-    "state": "Utah"
+    "state": "Utah",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SLC/105,151/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SLC/105,151/forecast/hourly"
   },
   {
     "city": "El Monte",
@@ -2113,7 +2569,9 @@
     "longitude": -118.0275667,
     "population": "115708",
     "rank": "234",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/163,44/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/163,44/forecast/hourly"
   },
   {
     "city": "Columbia",
@@ -2122,7 +2580,9 @@
     "longitude": -92.3340724,
     "population": "115276",
     "rank": "235",
-    "state": "Missouri"
+    "state": "Missouri",
+    "dailyForecast": "https://api.weather.gov/gridpoints/CAE/65,61/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/CAE/65,61/forecast/hourly"
   },
   {
     "city": "Lansing",
@@ -2131,7 +2591,9 @@
     "longitude": -84.5555347,
     "population": "113972",
     "rank": "236",
-    "state": "Michigan"
+    "state": "Michigan",
+    "dailyForecast": "https://api.weather.gov/gridpoints/GRR/79,39/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/GRR/79,39/forecast/hourly"
   },
   {
     "city": "Fargo",
@@ -2140,7 +2602,9 @@
     "longitude": -96.7898034,
     "population": "113658",
     "rank": "237",
-    "state": "North Dakota"
+    "state": "North Dakota",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FGF/100,57/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FGF/100,57/forecast/hourly"
   },
   {
     "city": "Downey",
@@ -2149,7 +2613,9 @@
     "longitude": -118.1331593,
     "population": "113242",
     "rank": "238",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/158,39/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/158,39/forecast/hourly"
   },
   {
     "city": "Costa Mesa",
@@ -2158,7 +2624,9 @@
     "longitude": -117.9186689,
     "population": "112174",
     "rank": "239",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/36,59/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/36,59/forecast/hourly"
   },
   {
     "city": "Wilmington",
@@ -2167,7 +2635,9 @@
     "longitude": -77.9447102,
     "population": "112067",
     "rank": "240",
-    "state": "North Carolina"
+    "state": "North Carolina",
+    "dailyForecast": "https://api.weather.gov/gridpoints/ILM/89,68/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/ILM/89,68/forecast/hourly"
   },
   {
     "city": "Arvada",
@@ -2176,7 +2646,9 @@
     "longitude": -105.0874842,
     "population": "111707",
     "rank": "241",
-    "state": "Colorado"
+    "state": "Colorado",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOU/60,65/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOU/60,65/forecast/hourly"
   },
   {
     "city": "Inglewood",
@@ -2185,7 +2657,9 @@
     "longitude": -118.3531311,
     "population": "111542",
     "rank": "242",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/150,42/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/150,42/forecast/hourly"
   },
   {
     "city": "Miami Gardens",
@@ -2194,7 +2668,9 @@
     "longitude": -80.2456045,
     "population": "111378",
     "rank": "243",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MFL/107,58/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MFL/107,58/forecast/hourly"
   },
   {
     "city": "Carlsbad",
@@ -2203,7 +2679,9 @@
     "longitude": -117.3505939,
     "population": "110972",
     "rank": "244",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/53,34/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/53,34/forecast/hourly"
   },
   {
     "city": "Westminster",
@@ -2212,7 +2690,9 @@
     "longitude": -105.0372046,
     "population": "110945",
     "rank": "245",
-    "state": "Colorado"
+    "state": "Colorado",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOU/62,66/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOU/62,66/forecast/hourly"
   },
   {
     "city": "Rochester",
@@ -2221,7 +2701,9 @@
     "longitude": -92.4801989,
     "population": "110742",
     "rank": "246",
-    "state": "Minnesota"
+    "state": "Minnesota",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BUF/77,65/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BUF/77,65/forecast/hourly"
   },
   {
     "city": "Odessa",
@@ -2230,7 +2712,9 @@
     "longitude": -102.3676431,
     "population": "110720",
     "rank": "247",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MAF/112,127/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MAF/112,127/forecast/hourly"
   },
   {
     "city": "Manchester",
@@ -2239,7 +2723,9 @@
     "longitude": -71.4547891,
     "population": "110378",
     "rank": "248",
-    "state": "New Hampshire"
+    "state": "New Hampshire",
+    "dailyForecast": "https://api.weather.gov/gridpoints/GYX/42,21/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/GYX/42,21/forecast/hourly"
   },
   {
     "city": "Elgin",
@@ -2248,7 +2734,9 @@
     "longitude": -88.2825668,
     "population": "110145",
     "rank": "249",
-    "state": "Illinois"
+    "state": "Illinois",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOT/53,79/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOT/53,79/forecast/hourly"
   },
   {
     "city": "West Jordan",
@@ -2257,7 +2745,9 @@
     "longitude": -111.9391031,
     "population": "110077",
     "rank": "250",
-    "state": "Utah"
+    "state": "Utah",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SLC/98,169/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SLC/98,169/forecast/hourly"
   },
   {
     "city": "Round Rock",
@@ -2266,7 +2756,9 @@
     "longitude": -97.678896,
     "population": "109821",
     "rank": "251",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/EWX/158,101/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/EWX/158,101/forecast/hourly"
   },
   {
     "city": "Clearwater",
@@ -2275,7 +2767,9 @@
     "longitude": -82.8001026,
     "population": "109703",
     "rank": "252",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/TBW/58,97/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/TBW/58,97/forecast/hourly"
   },
   {
     "city": "Waterbury",
@@ -2284,7 +2778,9 @@
     "longitude": -73.0514965,
     "population": "109676",
     "rank": "253",
-    "state": "Connecticut"
+    "state": "Connecticut",
+    "dailyForecast": "https://api.weather.gov/gridpoints/OKX/60,78/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/OKX/60,78/forecast/hourly"
   },
   {
     "city": "Gresham",
@@ -2293,7 +2789,9 @@
     "longitude": -122.4302013,
     "population": "109397",
     "rank": "254",
-    "state": "Oregon"
+    "state": "Oregon",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PQR/120,101/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PQR/120,101/forecast/hourly"
   },
   {
     "city": "Fairfield",
@@ -2302,7 +2800,9 @@
     "longitude": -122.0399663,
     "population": "109320",
     "rank": "255",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/STO/19,57/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/STO/19,57/forecast/hourly"
   },
   {
     "city": "Billings",
@@ -2311,7 +2811,9 @@
     "longitude": -108.5006904,
     "population": "109059",
     "rank": "256",
-    "state": "Montana"
+    "state": "Montana",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BYZ/103,92/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BYZ/103,92/forecast/hourly"
   },
   {
     "city": "Lowell",
@@ -2320,7 +2822,9 @@
     "longitude": -71.31617179999999,
     "population": "108861",
     "rank": "257",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOX/61,101/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOX/61,101/forecast/hourly"
   },
   {
     "city": "San Buenaventura (Ventura)",
@@ -2329,7 +2833,9 @@
     "longitude": -119.2290316,
     "population": "108817",
     "rank": "258",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/121,61/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/121,61/forecast/hourly"
   },
   {
     "city": "Pueblo",
@@ -2338,7 +2844,9 @@
     "longitude": -104.6091409,
     "population": "108249",
     "rank": "259",
-    "state": "Colorado"
+    "state": "Colorado",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PUB/96,65/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PUB/96,65/forecast/hourly"
   },
   {
     "city": "High Point",
@@ -2347,7 +2855,9 @@
     "longitude": -80.0053176,
     "population": "107741",
     "rank": "260",
-    "state": "North Carolina"
+    "state": "North Carolina",
+    "dailyForecast": "https://api.weather.gov/gridpoints/RAH/25,59/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/RAH/25,59/forecast/hourly"
   },
   {
     "city": "West Covina",
@@ -2356,7 +2866,9 @@
     "longitude": -117.9389526,
     "population": "107740",
     "rank": "261",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/166,44/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/166,44/forecast/hourly"
   },
   {
     "city": "Richmond",
@@ -2365,7 +2877,9 @@
     "longitude": -122.3477486,
     "population": "107571",
     "rank": "262",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/AKQ/46,77/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/AKQ/46,77/forecast/hourly"
   },
   {
     "city": "Murrieta",
@@ -2374,7 +2888,9 @@
     "longitude": -117.2139232,
     "population": "107479",
     "rank": "263",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/61,51/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/61,51/forecast/hourly"
   },
   {
     "city": "Cambridge",
@@ -2383,7 +2899,9 @@
     "longitude": -71.10973349999999,
     "population": "107289",
     "rank": "264",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOX/70,90/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOX/70,90/forecast/hourly"
   },
   {
     "city": "Antioch",
@@ -2392,7 +2910,9 @@
     "longitude": -121.805789,
     "population": "107100",
     "rank": "265",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MTR/108,111/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MTR/108,111/forecast/hourly"
   },
   {
     "city": "Temecula",
@@ -2401,7 +2921,9 @@
     "longitude": -117.1483648,
     "population": "106780",
     "rank": "266",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/63,48/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/63,48/forecast/hourly"
   },
   {
     "city": "Norwalk",
@@ -2410,7 +2932,9 @@
     "longitude": -118.081733,
     "population": "106589",
     "rank": "267",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/160,37/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/160,37/forecast/hourly"
   },
   {
     "city": "Centennial",
@@ -2419,7 +2943,9 @@
     "longitude": -104.8771726,
     "population": "106114",
     "rank": "268",
-    "state": "Colorado"
+    "state": "Colorado",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOU/66,54/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOU/66,54/forecast/hourly"
   },
   {
     "city": "Everett",
@@ -2428,7 +2954,9 @@
     "longitude": -122.2020794,
     "population": "105370",
     "rank": "269",
-    "state": "Washington"
+    "state": "Washington",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SEW/132,85/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SEW/132,85/forecast/hourly"
   },
   {
     "city": "Palm Bay",
@@ -2437,7 +2965,9 @@
     "longitude": -80.5886646,
     "population": "104898",
     "rank": "270",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MLB/59,49/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MLB/59,49/forecast/hourly"
   },
   {
     "city": "Wichita Falls",
@@ -2446,7 +2976,9 @@
     "longitude": -98.4933873,
     "population": "104898",
     "rank": "271",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/OUN/60,25/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/OUN/60,25/forecast/hourly"
   },
   {
     "city": "Green Bay",
@@ -2455,7 +2987,9 @@
     "longitude": -88.019826,
     "population": "104779",
     "rank": "272",
-    "state": "Wisconsin"
+    "state": "Wisconsin",
+    "dailyForecast": "https://api.weather.gov/gridpoints/GRB/79,32/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/GRB/79,32/forecast/hourly"
   },
   {
     "city": "Daly City",
@@ -2464,7 +2998,9 @@
     "longitude": -122.4702079,
     "population": "104739",
     "rank": "273",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MTR/82,102/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MTR/82,102/forecast/hourly"
   },
   {
     "city": "Burbank",
@@ -2473,7 +3009,9 @@
     "longitude": -118.3089661,
     "population": "104709",
     "rank": "274",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/154,51/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/154,51/forecast/hourly"
   },
   {
     "city": "Richardson",
@@ -2482,7 +3020,9 @@
     "longitude": -96.7298519,
     "population": "104475",
     "rank": "275",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FWD/92,111/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FWD/92,111/forecast/hourly"
   },
   {
     "city": "Pompano Beach",
@@ -2491,7 +3031,9 @@
     "longitude": -80.1247667,
     "population": "104410",
     "rank": "276",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MFL/110,71/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MFL/110,71/forecast/hourly"
   },
   {
     "city": "North Charleston",
@@ -2500,7 +3042,9 @@
     "longitude": -79.9748103,
     "population": "104054",
     "rank": "277",
-    "state": "South Carolina"
+    "state": "South Carolina",
+    "dailyForecast": "https://api.weather.gov/gridpoints/CHS/85,80/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/CHS/85,80/forecast/hourly"
   },
   {
     "city": "Broken Arrow",
@@ -2509,7 +3053,9 @@
     "longitude": -95.7974526,
     "population": "103500",
     "rank": "278",
-    "state": "Oklahoma"
+    "state": "Oklahoma",
+    "dailyForecast": "https://api.weather.gov/gridpoints/TSA/48,100/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/TSA/48,100/forecast/hourly"
   },
   {
     "city": "Boulder",
@@ -2518,7 +3064,9 @@
     "longitude": -105.2705456,
     "population": "103166",
     "rank": "279",
-    "state": "Colorado"
+    "state": "Colorado",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOU/54,75/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOU/54,75/forecast/hourly"
   },
   {
     "city": "West Palm Beach",
@@ -2527,7 +3075,9 @@
     "longitude": -80.0533746,
     "population": "102436",
     "rank": "280",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MFL/111,92/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MFL/111,92/forecast/hourly"
   },
   {
     "city": "Santa Maria",
@@ -2536,7 +3086,9 @@
     "longitude": -120.4357191,
     "population": "102216",
     "rank": "281",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/83,99/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/83,99/forecast/hourly"
   },
   {
     "city": "El Cajon",
@@ -2545,7 +3097,9 @@
     "longitude": -116.9625269,
     "population": "102211",
     "rank": "282",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/65,16/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/65,16/forecast/hourly"
   },
   {
     "city": "Davenport",
@@ -2554,7 +3108,9 @@
     "longitude": -90.5776367,
     "population": "102157",
     "rank": "283",
-    "state": "Iowa"
+    "state": "Iowa",
+    "dailyForecast": "https://api.weather.gov/gridpoints/DVN/68,66/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/DVN/68,66/forecast/hourly"
   },
   {
     "city": "Rialto",
@@ -2563,7 +3119,9 @@
     "longitude": -117.3703235,
     "population": "101910",
     "rank": "284",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/59,76/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/59,76/forecast/hourly"
   },
   {
     "city": "Las Cruces",
@@ -2572,7 +3130,9 @@
     "longitude": -106.7636538,
     "population": "101324",
     "rank": "285",
-    "state": "New Mexico"
+    "state": "New Mexico",
+    "dailyForecast": "https://api.weather.gov/gridpoints/EPZ/92,81/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/EPZ/92,81/forecast/hourly"
   },
   {
     "city": "San Mateo",
@@ -2581,7 +3141,9 @@
     "longitude": -122.3255254,
     "population": "101128",
     "rank": "286",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MTR/86,95/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MTR/86,95/forecast/hourly"
   },
   {
     "city": "Lewisville",
@@ -2590,7 +3152,9 @@
     "longitude": -96.994174,
     "population": "101074",
     "rank": "287",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FWD/82,116/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FWD/82,116/forecast/hourly"
   },
   {
     "city": "South Bend",
@@ -2599,7 +3163,9 @@
     "longitude": -86.25198979999999,
     "population": "100886",
     "rank": "288",
-    "state": "Indiana"
+    "state": "Indiana",
+    "dailyForecast": "https://api.weather.gov/gridpoints/IWX/29,63/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/IWX/29,63/forecast/hourly"
   },
   {
     "city": "Lakeland",
@@ -2608,7 +3174,9 @@
     "longitude": -81.9498042,
     "population": "100710",
     "rank": "289",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/TBW/90,103/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/TBW/90,103/forecast/hourly"
   },
   {
     "city": "Erie",
@@ -2617,7 +3185,9 @@
     "longitude": -80.085059,
     "population": "100671",
     "rank": "290",
-    "state": "Pennsylvania"
+    "state": "Pennsylvania",
+    "dailyForecast": "https://api.weather.gov/gridpoints/CLE/135,100/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/CLE/135,100/forecast/hourly"
   },
   {
     "city": "Tyler",
@@ -2626,7 +3196,9 @@
     "longitude": -95.30106239999999,
     "population": "100223",
     "rank": "291",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SHV/16,61/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SHV/16,61/forecast/hourly"
   },
   {
     "city": "Pearland",
@@ -2635,7 +3207,9 @@
     "longitude": -95.2860474,
     "population": "100065",
     "rank": "292",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/HGX/68,88/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/HGX/68,88/forecast/hourly"
   },
   {
     "city": "College Station",
@@ -2644,7 +3218,9 @@
     "longitude": -96.3344068,
     "population": "100050",
     "rank": "293",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/HGX/28,135/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/HGX/28,135/forecast/hourly"
   },
   {
     "city": "Kenosha",
@@ -2653,7 +3229,9 @@
     "longitude": -87.82118539999999,
     "population": "99889",
     "rank": "294",
-    "state": "Wisconsin"
+    "state": "Wisconsin",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MKX/92,44/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MKX/92,44/forecast/hourly"
   },
   {
     "city": "Sandy Springs",
@@ -2662,7 +3240,9 @@
     "longitude": -84.3733147,
     "population": "99770",
     "rank": "295",
-    "state": "Georgia"
+    "state": "Georgia",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FFC/51,95/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FFC/51,95/forecast/hourly"
   },
   {
     "city": "Clovis",
@@ -2671,7 +3251,9 @@
     "longitude": -119.7029194,
     "population": "99769",
     "rank": "296",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/HNX/56,103/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/HNX/56,103/forecast/hourly"
   },
   {
     "city": "Flint",
@@ -2680,7 +3262,9 @@
     "longitude": -83.6874562,
     "population": "99763",
     "rank": "297",
-    "state": "Michigan"
+    "state": "Michigan",
+    "dailyForecast": "https://api.weather.gov/gridpoints/DTX/42,63/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/DTX/42,63/forecast/hourly"
   },
   {
     "city": "Roanoke",
@@ -2689,7 +3273,9 @@
     "longitude": -79.9414266,
     "population": "98465",
     "rank": "298",
-    "state": "Virginia"
+    "state": "Virginia",
+    "dailyForecast": "https://api.weather.gov/gridpoints/RNK/74,69/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/RNK/74,69/forecast/hourly"
   },
   {
     "city": "Albany",
@@ -2698,7 +3284,9 @@
     "longitude": -73.7562317,
     "population": "98424",
     "rank": "299",
-    "state": "New York"
+    "state": "New York",
+    "dailyForecast": "https://api.weather.gov/gridpoints/ALY/72,63/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/ALY/72,63/forecast/hourly"
   },
   {
     "city": "Jurupa Valley",
@@ -2707,7 +3295,9 @@
     "longitude": -117.4854802,
     "population": "98030",
     "rank": "300",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/54,72/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/54,72/forecast/hourly"
   },
   {
     "city": "Compton",
@@ -2716,7 +3306,9 @@
     "longitude": -118.2200712,
     "population": "97877",
     "rank": "301",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/155,38/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/155,38/forecast/hourly"
   },
   {
     "city": "San Angelo",
@@ -2725,7 +3317,9 @@
     "longitude": -100.4370375,
     "population": "97492",
     "rank": "302",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SJT/76,56/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SJT/76,56/forecast/hourly"
   },
   {
     "city": "Hillsboro",
@@ -2734,7 +3328,9 @@
     "longitude": -122.989827,
     "population": "97368",
     "rank": "303",
-    "state": "Oregon"
+    "state": "Oregon",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PQR/103,106/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PQR/103,106/forecast/hourly"
   },
   {
     "city": "Lawton",
@@ -2743,7 +3339,9 @@
     "longitude": -98.39592909999999,
     "population": "97151",
     "rank": "304",
-    "state": "Oklahoma"
+    "state": "Oklahoma",
+    "dailyForecast": "https://api.weather.gov/gridpoints/OUN/65,56/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/OUN/65,56/forecast/hourly"
   },
   {
     "city": "Renton",
@@ -2752,7 +3350,9 @@
     "longitude": -122.2170661,
     "population": "97003",
     "rank": "305",
-    "state": "Washington"
+    "state": "Washington",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SEW/127,62/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SEW/127,62/forecast/hourly"
   },
   {
     "city": "Vista",
@@ -2761,7 +3361,9 @@
     "longitude": -117.2425355,
     "population": "96929",
     "rank": "306",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/57,36/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/57,36/forecast/hourly"
   },
   {
     "city": "Davie",
@@ -2770,7 +3372,9 @@
     "longitude": -80.25211569999999,
     "population": "96830",
     "rank": "307",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MFL/106,64/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MFL/106,64/forecast/hourly"
   },
   {
     "city": "Greeley",
@@ -2779,7 +3383,9 @@
     "longitude": -104.7091322,
     "population": "96539",
     "rank": "308",
-    "state": "Colorado"
+    "state": "Colorado",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOU/75,92/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOU/75,92/forecast/hourly"
   },
   {
     "city": "Mission Viejo",
@@ -2788,7 +3394,9 @@
     "longitude": -117.6719953,
     "population": "96346",
     "rank": "309",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/44,56/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/44,56/forecast/hourly"
   },
   {
     "city": "Portsmouth",
@@ -2797,7 +3405,9 @@
     "longitude": -76.2982742,
     "population": "96205",
     "rank": "310",
-    "state": "Virginia"
+    "state": "Virginia",
+    "dailyForecast": "https://api.weather.gov/gridpoints/AKQ/90,51/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/AKQ/90,51/forecast/hourly"
   },
   {
     "city": "Dearborn",
@@ -2806,7 +3416,9 @@
     "longitude": -83.17631449999999,
     "population": "95884",
     "rank": "311",
-    "state": "Michigan"
+    "state": "Michigan",
+    "dailyForecast": "https://api.weather.gov/gridpoints/DTX/61,33/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/DTX/61,33/forecast/hourly"
   },
   {
     "city": "South Gate",
@@ -2815,7 +3427,9 @@
     "longitude": -118.2120161,
     "population": "95677",
     "rank": "312",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/155,40/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/155,40/forecast/hourly"
   },
   {
     "city": "Tuscaloosa",
@@ -2824,7 +3438,9 @@
     "longitude": -87.56917349999999,
     "population": "95334",
     "rank": "313",
-    "state": "Alabama"
+    "state": "Alabama",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BMX/32,69/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BMX/32,69/forecast/hourly"
   },
   {
     "city": "Livonia",
@@ -2833,7 +3449,9 @@
     "longitude": -83.35270969999999,
     "population": "95208",
     "rank": "314",
-    "state": "Michigan"
+    "state": "Michigan",
+    "dailyForecast": "https://api.weather.gov/gridpoints/DTX/55,35/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/DTX/55,35/forecast/hourly"
   },
   {
     "city": "New Bedford",
@@ -2842,7 +3460,9 @@
     "longitude": -70.93420499999999,
     "population": "95078",
     "rank": "315",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOX/81,58/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOX/81,58/forecast/hourly"
   },
   {
     "city": "Vacaville",
@@ -2851,7 +3471,9 @@
     "longitude": -121.9877444,
     "population": "94275",
     "rank": "316",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/STO/22,62/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/STO/22,62/forecast/hourly"
   },
   {
     "city": "Brockton",
@@ -2860,7 +3482,9 @@
     "longitude": -71.0183787,
     "population": "94089",
     "rank": "317",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOX/75,78/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOX/75,78/forecast/hourly"
   },
   {
     "city": "Roswell",
@@ -2869,7 +3493,9 @@
     "longitude": -84.3615555,
     "population": "94034",
     "rank": "318",
-    "state": "Georgia"
+    "state": "Georgia",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FFC/51,99/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FFC/51,99/forecast/hourly"
   },
   {
     "city": "Beaverton",
@@ -2878,7 +3504,9 @@
     "longitude": -122.8037102,
     "population": "93542",
     "rank": "319",
-    "state": "Oregon"
+    "state": "Oregon",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PQR/108,103/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PQR/108,103/forecast/hourly"
   },
   {
     "city": "Quincy",
@@ -2887,7 +3515,9 @@
     "longitude": -71.0022705,
     "population": "93494",
     "rank": "320",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOX/74,85/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOX/74,85/forecast/hourly"
   },
   {
     "city": "Sparks",
@@ -2896,7 +3526,9 @@
     "longitude": -119.7526886,
     "population": "93282",
     "rank": "321",
-    "state": "Nevada"
+    "state": "Nevada",
+    "dailyForecast": "https://api.weather.gov/gridpoints/REV/47,106/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/REV/47,106/forecast/hourly"
   },
   {
     "city": "Yakima",
@@ -2905,7 +3537,9 @@
     "longitude": -120.5058987,
     "population": "93257",
     "rank": "322",
-    "state": "Washington"
+    "state": "Washington",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PDT/84,153/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PDT/84,153/forecast/hourly"
   },
   {
     "city": "Lee's Summit",
@@ -2914,7 +3548,9 @@
     "longitude": -94.3821724,
     "population": "93184",
     "rank": "323",
-    "state": "Missouri"
+    "state": "Missouri",
+    "dailyForecast": "https://api.weather.gov/gridpoints/EAX/51,42/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/EAX/51,42/forecast/hourly"
   },
   {
     "city": "Federal Way",
@@ -2923,7 +3559,9 @@
     "longitude": -122.3126222,
     "population": "92734",
     "rank": "324",
-    "state": "Washington"
+    "state": "Washington",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SEW/123,55/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SEW/123,55/forecast/hourly"
   },
   {
     "city": "Carson",
@@ -2932,7 +3570,9 @@
     "longitude": -118.281693,
     "population": "92599",
     "rank": "325",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/152,36/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/152,36/forecast/hourly"
   },
   {
     "city": "Santa Monica",
@@ -2941,7 +3581,9 @@
     "longitude": -118.4911912,
     "population": "92472",
     "rank": "326",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/146,45/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/146,45/forecast/hourly"
   },
   {
     "city": "Hesperia",
@@ -2950,7 +3592,9 @@
     "longitude": -117.3008784,
     "population": "92147",
     "rank": "327",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/64,90/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/64,90/forecast/hourly"
   },
   {
     "city": "Allen",
@@ -2959,7 +3603,9 @@
     "longitude": -96.67055030000002,
     "population": "92020",
     "rank": "328",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FWD/94,118/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FWD/94,118/forecast/hourly"
   },
   {
     "city": "Rio Rancho",
@@ -2968,7 +3614,9 @@
     "longitude": -106.6630437,
     "population": "91956",
     "rank": "329",
-    "state": "New Mexico"
+    "state": "New Mexico",
+    "dailyForecast": "https://api.weather.gov/gridpoints/ABQ/98,128/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/ABQ/98,128/forecast/hourly"
   },
   {
     "city": "Yuma",
@@ -2977,7 +3625,9 @@
     "longitude": -114.6276916,
     "population": "91923",
     "rank": "330",
-    "state": "Arizona"
+    "state": "Arizona",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PSR/61,37/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PSR/61,37/forecast/hourly"
   },
   {
     "city": "Westminster",
@@ -2986,7 +3636,9 @@
     "longitude": -117.9939921,
     "population": "91739",
     "rank": "331",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOU/62,66/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOU/62,66/forecast/hourly"
   },
   {
     "city": "Orem",
@@ -2995,7 +3647,9 @@
     "longitude": -111.6946475,
     "population": "91648",
     "rank": "332",
-    "state": "Utah"
+    "state": "Utah",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SLC/105,154/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SLC/105,154/forecast/hourly"
   },
   {
     "city": "Lynn",
@@ -3004,7 +3658,9 @@
     "longitude": -70.9494938,
     "population": "91589",
     "rank": "333",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOX/74,95/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOX/74,95/forecast/hourly"
   },
   {
     "city": "Redding",
@@ -3013,7 +3669,9 @@
     "longitude": -122.3916754,
     "population": "91119",
     "rank": "334",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/STO/28,164/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/STO/28,164/forecast/hourly"
   },
   {
     "city": "Spokane Valley",
@@ -3022,7 +3680,9 @@
     "longitude": -117.2393748,
     "population": "91113",
     "rank": "335",
-    "state": "Washington"
+    "state": "Washington",
+    "dailyForecast": "https://api.weather.gov/gridpoints/OTX/146,90/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/OTX/146,90/forecast/hourly"
   },
   {
     "city": "Miami Beach",
@@ -3031,7 +3691,9 @@
     "longitude": -80.1300455,
     "population": "91026",
     "rank": "336",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MFL/112,52/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MFL/112,52/forecast/hourly"
   },
   {
     "city": "League City",
@@ -3040,7 +3702,9 @@
     "longitude": -95.0949303,
     "population": "90983",
     "rank": "337",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/HGX/75,85/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/HGX/75,85/forecast/hourly"
   },
   {
     "city": "Lawrence",
@@ -3049,7 +3713,9 @@
     "longitude": -95.2352501,
     "population": "90811",
     "rank": "338",
-    "state": "Kansas"
+    "state": "Kansas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/TOP/97,45/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/TOP/97,45/forecast/hourly"
   },
   {
     "city": "Santa Barbara",
@@ -3058,7 +3724,9 @@
     "longitude": -119.6981901,
     "population": "90412",
     "rank": "339",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/105,70/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/105,70/forecast/hourly"
   },
   {
     "city": "Plantation",
@@ -3067,7 +3735,9 @@
     "longitude": -80.23310359999999,
     "population": "90268",
     "rank": "340",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MFL/106,66/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MFL/106,66/forecast/hourly"
   },
   {
     "city": "Sandy",
@@ -3076,7 +3746,9 @@
     "longitude": -111.8389726,
     "population": "90231",
     "rank": "341",
-    "state": "Utah"
+    "state": "Utah",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SLC/101,166/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SLC/101,166/forecast/hourly"
   },
   {
     "city": "Sunrise",
@@ -3085,7 +3757,9 @@
     "longitude": -80.25659499999999,
     "population": "90116",
     "rank": "342",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MFL/105,67/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MFL/105,67/forecast/hourly"
   },
   {
     "city": "Macon",
@@ -3094,7 +3768,9 @@
     "longitude": -83.6324022,
     "population": "89981",
     "rank": "343",
-    "state": "Georgia"
+    "state": "Georgia",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FFC/82,49/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FFC/82,49/forecast/hourly"
   },
   {
     "city": "Longmont",
@@ -3103,7 +3779,9 @@
     "longitude": -105.1019275,
     "population": "89919",
     "rank": "344",
-    "state": "Colorado"
+    "state": "Colorado",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOU/61,81/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOU/61,81/forecast/hourly"
   },
   {
     "city": "Boca Raton",
@@ -3112,7 +3790,9 @@
     "longitude": -80.1289321,
     "population": "89407",
     "rank": "345",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MFL/109,77/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MFL/109,77/forecast/hourly"
   },
   {
     "city": "San Marcos",
@@ -3121,7 +3801,9 @@
     "longitude": -117.1661449,
     "population": "89387",
     "rank": "346",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/60,33/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/60,33/forecast/hourly"
   },
   {
     "city": "Greenville",
@@ -3130,7 +3812,9 @@
     "longitude": -77.3663538,
     "population": "89130",
     "rank": "347",
-    "state": "North Carolina"
+    "state": "North Carolina",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MHX/30,63/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MHX/30,63/forecast/hourly"
   },
   {
     "city": "Waukegan",
@@ -3139,7 +3823,9 @@
     "longitude": -87.84479379999999,
     "population": "88826",
     "rank": "348",
-    "state": "Illinois"
+    "state": "Illinois",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOT/67,95/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOT/67,95/forecast/hourly"
   },
   {
     "city": "Fall River",
@@ -3148,7 +3834,9 @@
     "longitude": -71.1550451,
     "population": "88697",
     "rank": "349",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOX/73,60/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOX/73,60/forecast/hourly"
   },
   {
     "city": "Chico",
@@ -3157,7 +3845,9 @@
     "longitude": -121.8374777,
     "population": "88077",
     "rank": "350",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/STO/39,122/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/STO/39,122/forecast/hourly"
   },
   {
     "city": "Newton",
@@ -3166,7 +3856,9 @@
     "longitude": -71.20922139999999,
     "population": "87971",
     "rank": "351",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOX/67,88/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOX/67,88/forecast/hourly"
   },
   {
     "city": "San Leandro",
@@ -3175,7 +3867,9 @@
     "longitude": -122.1560768,
     "population": "87965",
     "rank": "352",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MTR/93,101/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MTR/93,101/forecast/hourly"
   },
   {
     "city": "Reading",
@@ -3184,7 +3878,9 @@
     "longitude": -75.9268747,
     "population": "87893",
     "rank": "353",
-    "state": "Pennsylvania"
+    "state": "Pennsylvania",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PHI/21,89/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PHI/21,89/forecast/hourly"
   },
   {
     "city": "Norwalk",
@@ -3193,7 +3889,9 @@
     "longitude": -73.4081575,
     "population": "87776",
     "rank": "354",
-    "state": "Connecticut"
+    "state": "Connecticut",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/160,37/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/160,37/forecast/hourly"
   },
   {
     "city": "Fort Smith",
@@ -3202,7 +3900,9 @@
     "longitude": -94.39854749999999,
     "population": "87650",
     "rank": "355",
-    "state": "Arkansas"
+    "state": "Arkansas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/TSA/99,70/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/TSA/99,70/forecast/hourly"
   },
   {
     "city": "Newport Beach",
@@ -3211,7 +3911,9 @@
     "longitude": -117.9289469,
     "population": "87273",
     "rank": "356",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/35,58/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/35,58/forecast/hourly"
   },
   {
     "city": "Asheville",
@@ -3220,7 +3922,9 @@
     "longitude": -82.5514869,
     "population": "87236",
     "rank": "357",
-    "state": "North Carolina"
+    "state": "North Carolina",
+    "dailyForecast": "https://api.weather.gov/gridpoints/GSP/56,75/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/GSP/56,75/forecast/hourly"
   },
   {
     "city": "Nashua",
@@ -3229,7 +3933,9 @@
     "longitude": -71.46756599999999,
     "population": "87137",
     "rank": "358",
-    "state": "New Hampshire"
+    "state": "New Hampshire",
+    "dailyForecast": "https://api.weather.gov/gridpoints/GYX/44,11/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/GYX/44,11/forecast/hourly"
   },
   {
     "city": "Edmond",
@@ -3238,7 +3944,9 @@
     "longitude": -97.47809540000002,
     "population": "87004",
     "rank": "359",
-    "state": "Oklahoma"
+    "state": "Oklahoma",
+    "dailyForecast": "https://api.weather.gov/gridpoints/OUN/99,102/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/OUN/99,102/forecast/hourly"
   },
   {
     "city": "Whittier",
@@ -3247,7 +3955,9 @@
     "longitude": -118.032844,
     "population": "86635",
     "rank": "360",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/162,40/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/162,40/forecast/hourly"
   },
   {
     "city": "Nampa",
@@ -3256,7 +3966,9 @@
     "longitude": -116.5634624,
     "population": "86518",
     "rank": "361",
-    "state": "Idaho"
+    "state": "Idaho",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOI/121,84/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOI/121,84/forecast/hourly"
   },
   {
     "city": "Bloomington",
@@ -3265,7 +3977,9 @@
     "longitude": -93.2982799,
     "population": "86319",
     "rank": "362",
-    "state": "Minnesota"
+    "state": "Minnesota",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MPX/107,66/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MPX/107,66/forecast/hourly"
   },
   {
     "city": "Deltona",
@@ -3274,7 +3988,9 @@
     "longitude": -81.26367379999999,
     "population": "86290",
     "rank": "363",
-    "state": "Florida"
+    "state": "Florida",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MLB/29,84/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MLB/29,84/forecast/hourly"
   },
   {
     "city": "Hawthorne",
@@ -3283,7 +3999,9 @@
     "longitude": -118.3525748,
     "population": "86199",
     "rank": "364",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/150,40/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/150,40/forecast/hourly"
   },
   {
     "city": "Duluth",
@@ -3292,7 +4010,9 @@
     "longitude": -92.1004852,
     "population": "86128",
     "rank": "365",
-    "state": "Minnesota"
+    "state": "Minnesota",
+    "dailyForecast": "https://api.weather.gov/gridpoints/DLH/91,69/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/DLH/91,69/forecast/hourly"
   },
   {
     "city": "Carmel",
@@ -3301,7 +4021,9 @@
     "longitude": -86.1180435,
     "population": "85927",
     "rank": "366",
-    "state": "Indiana"
+    "state": "Indiana",
+    "dailyForecast": "https://api.weather.gov/gridpoints/IND/59,79/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/IND/59,79/forecast/hourly"
   },
   {
     "city": "Suffolk",
@@ -3310,7 +4032,9 @@
     "longitude": -76.5835621,
     "population": "85728",
     "rank": "367",
-    "state": "Virginia"
+    "state": "Virginia",
+    "dailyForecast": "https://api.weather.gov/gridpoints/AKQ/81,45/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/AKQ/81,45/forecast/hourly"
   },
   {
     "city": "Clifton",
@@ -3319,7 +4043,9 @@
     "longitude": -74.16375529999999,
     "population": "85390",
     "rank": "368",
-    "state": "New Jersey"
+    "state": "New Jersey",
+    "dailyForecast": "https://api.weather.gov/gridpoints/OKX/27,41/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/OKX/27,41/forecast/hourly"
   },
   {
     "city": "Citrus Heights",
@@ -3328,7 +4054,9 @@
     "longitude": -121.2810611,
     "population": "85285",
     "rank": "369",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/STO/49,72/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/STO/49,72/forecast/hourly"
   },
   {
     "city": "Livermore",
@@ -3337,7 +4065,9 @@
     "longitude": -121.7680088,
     "population": "85156",
     "rank": "370",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MTR/107,96/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MTR/107,96/forecast/hourly"
   },
   {
     "city": "Tracy",
@@ -3346,7 +4076,9 @@
     "longitude": -121.4252227,
     "population": "84691",
     "rank": "371",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/STO/36,31/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/STO/36,31/forecast/hourly"
   },
   {
     "city": "Alhambra",
@@ -3355,7 +4087,9 @@
     "longitude": -118.1270146,
     "population": "84577",
     "rank": "372",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOX/160,46/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOX/160,46/forecast/hourly"
   },
   {
     "city": "Kirkland",
@@ -3364,7 +4098,9 @@
     "longitude": -122.2087353,
     "population": "84430",
     "rank": "373",
-    "state": "Washington"
+    "state": "Washington",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SEW/129,71/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SEW/129,71/forecast/hourly"
   },
   {
     "city": "Trenton",
@@ -3373,7 +4109,9 @@
     "longitude": -74.7429384,
     "population": "84349",
     "rank": "374",
-    "state": "New Jersey"
+    "state": "New Jersey",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PHI/62,90/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PHI/62,90/forecast/hourly"
   },
   {
     "city": "Ogden",
@@ -3382,7 +4120,9 @@
     "longitude": -111.9738304,
     "population": "84249",
     "rank": "375",
-    "state": "Utah"
+    "state": "Utah",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SLC/100,197/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SLC/100,197/forecast/hourly"
   },
   {
     "city": "Hoover",
@@ -3391,7 +4131,9 @@
     "longitude": -86.8113781,
     "population": "84126",
     "rank": "376",
-    "state": "Alabama"
+    "state": "Alabama",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BMX/59,79/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BMX/59,79/forecast/hourly"
   },
   {
     "city": "Cicero",
@@ -3400,7 +4142,9 @@
     "longitude": -87.7539448,
     "population": "84103",
     "rank": "377",
-    "state": "Illinois"
+    "state": "Illinois",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LOT/71,71/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LOT/71,71/forecast/hourly"
   },
   {
     "city": "Fishers",
@@ -3409,7 +4153,9 @@
     "longitude": -86.01335,
     "population": "83891",
     "rank": "378",
-    "state": "Indiana"
+    "state": "Indiana",
+    "dailyForecast": "https://api.weather.gov/gridpoints/IND/62,78/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/IND/62,78/forecast/hourly"
   },
   {
     "city": "Sugar Land",
@@ -3418,7 +4164,9 @@
     "longitude": -95.6349463,
     "population": "83860",
     "rank": "379",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/HGX/55,90/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/HGX/55,90/forecast/hourly"
   },
   {
     "city": "Danbury",
@@ -3427,7 +4175,9 @@
     "longitude": -73.4540111,
     "population": "83684",
     "rank": "380",
-    "state": "Connecticut"
+    "state": "Connecticut",
+    "dailyForecast": "https://api.weather.gov/gridpoints/OKX/47,69/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/OKX/47,69/forecast/hourly"
   },
   {
     "city": "Meridian",
@@ -3436,7 +4186,9 @@
     "longitude": -116.3915131,
     "population": "83596",
     "rank": "381",
-    "state": "Idaho"
+    "state": "Idaho",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOI/127,87/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOI/127,87/forecast/hourly"
   },
   {
     "city": "Indio",
@@ -3445,7 +4197,9 @@
     "longitude": -116.2155619,
     "population": "83539",
     "rank": "382",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/98,52/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/98,52/forecast/hourly"
   },
   {
     "city": "Concord",
@@ -3454,7 +4208,9 @@
     "longitude": -80.579511,
     "population": "83506",
     "rank": "383",
-    "state": "North Carolina"
+    "state": "North Carolina",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MTR/100,111/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MTR/100,111/forecast/hourly"
   },
   {
     "city": "Menifee",
@@ -3463,7 +4219,9 @@
     "longitude": -117.185294,
     "population": "83447",
     "rank": "384",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/63,57/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/63,57/forecast/hourly"
   },
   {
     "city": "Champaign",
@@ -3472,7 +4230,9 @@
     "longitude": -88.2433829,
     "population": "83424",
     "rank": "385",
-    "state": "Illinois"
+    "state": "Illinois",
+    "dailyForecast": "https://api.weather.gov/gridpoints/ILX/96,73/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/ILX/96,73/forecast/hourly"
   },
   {
     "city": "Buena Park",
@@ -3481,7 +4241,9 @@
     "longitude": -117.9981181,
     "population": "82882",
     "rank": "386",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/35,69/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/35,69/forecast/hourly"
   },
   {
     "city": "Troy",
@@ -3490,7 +4252,9 @@
     "longitude": -83.1497751,
     "population": "82821",
     "rank": "387",
-    "state": "Michigan"
+    "state": "Michigan",
+    "dailyForecast": "https://api.weather.gov/gridpoints/DTX/61,46/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/DTX/61,46/forecast/hourly"
   },
   {
     "city": "O'Fallon",
@@ -3499,7 +4263,9 @@
     "longitude": -90.69984769999999,
     "population": "82809",
     "rank": "388",
-    "state": "Missouri"
+    "state": "Missouri",
+    "dailyForecast": "https://api.weather.gov/gridpoints/LSX/77,82/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/LSX/77,82/forecast/hourly"
   },
   {
     "city": "Johns Creek",
@@ -3508,7 +4274,9 @@
     "longitude": -84.198579,
     "population": "82788",
     "rank": "389",
-    "state": "Georgia"
+    "state": "Georgia",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FFC/57,100/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FFC/57,100/forecast/hourly"
   },
   {
     "city": "Bellingham",
@@ -3517,7 +4285,9 @@
     "longitude": -122.4781473,
     "population": "82631",
     "rank": "390",
-    "state": "Washington"
+    "state": "Washington",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SEW/131,123/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SEW/131,123/forecast/hourly"
   },
   {
     "city": "Westland",
@@ -3526,7 +4296,9 @@
     "longitude": -83.400211,
     "population": "82578",
     "rank": "391",
-    "state": "Michigan"
+    "state": "Michigan",
+    "dailyForecast": "https://api.weather.gov/gridpoints/DTX/54,33/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/DTX/54,33/forecast/hourly"
   },
   {
     "city": "Bloomington",
@@ -3535,7 +4307,9 @@
     "longitude": -86.52638569999999,
     "population": "82575",
     "rank": "392",
-    "state": "Indiana"
+    "state": "Indiana",
+    "dailyForecast": "https://api.weather.gov/gridpoints/MPX/107,66/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/MPX/107,66/forecast/hourly"
   },
   {
     "city": "Sioux City",
@@ -3544,7 +4318,9 @@
     "longitude": -96.40030689999999,
     "population": "82459",
     "rank": "393",
-    "state": "Iowa"
+    "state": "Iowa",
+    "dailyForecast": "https://api.weather.gov/gridpoints/FSD/108,16/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/FSD/108,16/forecast/hourly"
   },
   {
     "city": "Warwick",
@@ -3553,7 +4329,9 @@
     "longitude": -71.4161671,
     "population": "81971",
     "rank": "394",
-    "state": "Rhode Island"
+    "state": "Rhode Island",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOX/65,58/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOX/65,58/forecast/hourly"
   },
   {
     "city": "Hemet",
@@ -3562,7 +4340,9 @@
     "longitude": -116.9719684,
     "population": "81750",
     "rank": "395",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SGX/71,58/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/71,58/forecast/hourly"
   },
   {
     "city": "Longview",
@@ -3571,7 +4351,9 @@
     "longitude": -94.74048909999999,
     "population": "81443",
     "rank": "396",
-    "state": "Texas"
+    "state": "Texas",
+    "dailyForecast": "https://api.weather.gov/gridpoints/SHV/37,67/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/SHV/37,67/forecast/hourly"
   },
   {
     "city": "Farmington Hills",
@@ -3580,7 +4362,9 @@
     "longitude": -83.3677168,
     "population": "81295",
     "rank": "397",
-    "state": "Michigan"
+    "state": "Michigan",
+    "dailyForecast": "https://api.weather.gov/gridpoints/DTX/54,41/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/DTX/54,41/forecast/hourly"
   },
   {
     "city": "Bend",
@@ -3589,7 +4373,9 @@
     "longitude": -121.3153096,
     "population": "81236",
     "rank": "398",
-    "state": "Oregon"
+    "state": "Oregon",
+    "dailyForecast": "https://api.weather.gov/gridpoints/PDT/35,41/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/PDT/35,41/forecast/hourly"
   },
   {
     "city": "Lakewood",
@@ -3598,7 +4384,9 @@
     "longitude": -118.1339563,
     "population": "81121",
     "rank": "399",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/BOU/60,60/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/BOU/60,60/forecast/hourly"
   },
   {
     "city": "Merced",
@@ -3607,6 +4395,8 @@
     "longitude": -120.4829677,
     "population": "81102",
     "rank": "400",
-    "state": "California"
+    "state": "California",
+    "dailyForecast": "https://api.weather.gov/gridpoints/HNX/32,129/forecast",
+    "hourlyForecast": "https://api.weather.gov/gridpoints/HNX/32,129/forecast/hourly"
   }
 ]

@@ -1,5 +1,6 @@
 import express from 'express';
 import { getCurrForecast, getHourlyForecast, getHourlyPrecipitation, getHourlyTemp, getWeeklyDaytimeForecast, getWeeklyNighttimeTemp } from '../getForecast';
+import { getCityNames } from '../data';
 
 const router = express.Router();
 
@@ -25,7 +26,7 @@ router.get('/:cityName/hourlyForecast', async (req, res) => {
   }
 });
 
-router.get('/:cityName/weeklyDayTimeForecast', async (req, res) => {
+router.get('/:cityName/weeklyForecast', async (req, res) => {
   try {
     const cityName = req.params.cityName;
     const forecastData = await getWeeklyDaytimeForecast(cityName);
@@ -69,4 +70,13 @@ router.get('/:cityName/hourlyTemp', async (req, res) => {
   }
 });
 
+router.get('/cityList',  async (req, res) => {
+  try {
+    const cityNames = getCityNames();
+    res.status(200).send(cityNames);
+  } catch (err) {
+    console.error('Error fetching city names', err);
+    res.status(500).send('Internal server error');
+  }
+});
 export default router;

@@ -59,7 +59,7 @@ export async function updateForecastDataForAllCities(): Promise<void> {
 }
 
 // get list of city names
-export function getCityNames(): void {
+export function getCityNames(): string[] {
   const cityNames = cities.map(city => city.city);
-  fs.writeFileSync('data/cityNames.json', JSON.stringify(cityNames, null, 2), 'utf8');
+  return cityNames
 }

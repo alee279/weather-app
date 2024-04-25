@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { HourlyForecastData } from '../types/types';
+import { DailyForecastData, NightTempData } from '../types/types';
 import { useState } from 'react';
 import { Card, CardContent, Typography } from '@mui/material';
 import React from 'react';
@@ -10,44 +10,62 @@ DayForecast.propTypes = {
 };
 
 function DayForecast({ cityName }) {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [forecast, setForecast] = useState<HourlyForecastData[]>([]);
+  const [forecast, setForecast] = useState<DailyForecastData[]>([]);
+  const [lowTemps, setLowTemps] = useState<NightTempData[]>([]);
 
   React.useEffect(() => {
     const fetchForecast = async () => {
       try {
-        // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const response = await axios.get(
-          `/forecast/${cityName}/hourlyForecast`,
+          `/forecast/${cityName}/weeklyForecast`,
         );
-        // console.log(cityName);
-        // console.log(response.data);
-        // setForecast(response.data);
+        setForecast(response.data);
       } catch (error) {
-        console.error('Error fetching forecast', error);
+        // console.error('Error fetching forecast', error);
+      }
+    };
+
+    const fetchNightTemps = async () => {
+      try {
+        const response = await axios.get(
+          `/forecast/${cityName}/weeklyNighttimeTemp`,
+        );
+        setLowTemps(response.data);
+      } catch (error) {
+        // console.error('Error fetching forecast', error);
       }
     };
 
     fetchForecast();
+    fetchNightTemps();
   }, [cityName]);
 
   return (
     <>
-      {forecast.map((data, index) => (
-        <Card key={index} variant="outlined">
-          <CardContent>
-            <Typography variant="h5" component="div">
-              Forecast {data.startTime}
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              Start Time: {data.startTime}
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              End Time: {data.endTime}
-            </Typography>
-          </CardContent>
-        </Card>
-      ))}
+      <div style={{ display: 'flex' }}>
+        {forecast.map((data, index) => {
+          const nightTempIndex = index;
+          const nightTempData = lowTemps[nightTempIndex];
+          return (
+            <Card key={index} variant="outlined">
+              <CardContent>
+                <Typography variant="body1" color="text.secondary">
+                  {data.name}
+                </Typography>
+                <Typography variant="h5" color="text.secondary">
+                  {data.temperature}&nbsp;/&nbsp;
+                  {nightTempData && <span>{nightTempData.temperature}</span>}
+                </Typography>
+                <Typography variant="body1" component="div">
+                  {data.shortForecast}
+                </Typography>
+              </CardContent>
+            </Card>
+          );
+        })}
+      </div>
     </>
   );
 }
+
+export default DayForecast;
