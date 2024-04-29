@@ -20,6 +20,7 @@ const cities = JSON.parse(data);
 // get forecast of current hour
 export async function getCurrForecast(cityName: string): Promise<unknown> {
   const city = cities.find((c: City) => c.city === cityName);
+  console.log("hello")
   if (!city) {
     console.error(`City '${cityName}' not found`);
     return null;
@@ -64,7 +65,7 @@ export async function getWeeklyDaytimeForecast(cityName: string): Promise<unknow
   try {
     const response = await axios.get(city.dailyForecast);
     const periods = response.data.properties.periods;
-    return periods.filter(period => period.number === 1 || period.isDaytime);
+    return periods.filter(period => period.isDaytime);
   } catch (error) {
     console.error('Error fetching daily forecast:', error);
     throw error;

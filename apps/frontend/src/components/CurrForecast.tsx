@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import axios from 'axios';
 import PropTypes from 'prop-types';
 import { Card, Typography } from '@mui/material';
@@ -9,7 +9,7 @@ CurrForecast.propTypes = {
 };
 
 function CurrForecast({ cityName }) {
-  const [forecast, setForecast] = useState<HourlyForecastData>({
+  const [forecast, setForecast] = React.useState<HourlyForecastData>({
     number: 0,
     name: '',
     startTime: '',
@@ -37,38 +37,43 @@ function CurrForecast({ cityName }) {
     detailedForecast: '',
   });
 
-  useEffect(() => {
+  React.useEffect(() => {
     const fetchForecast = async () => {
       try {
         const response = await axios.get(`/forecast/${cityName}/currForecast`);
+        // console.log(cityName);
+        // console.log(response.data);
         setForecast(response.data);
       } catch (error) {
-        console.error('Error fetching forecast', error);
+        // console.error('Error fetching forecast', error);
       }
     };
 
     fetchForecast();
   }, [cityName]);
 
+  // short forecast
+  // precip -- wind speed
+  // humidity -- wind dir
   return (
     <>
       <Card>
         <div style={{ alignItems: 'center', margin: '30px' }}>
-          <Typography variant="h4">{forecast.shortForecast}</Typography>
+          <Typography>{forecast.shortForecast}</Typography>
           <div style={{ display: 'flex', alignItems: 'center' }}>
-            <Typography variant="h5">
+            <Typography>
               Precipitation: {forecast.probabilityOfPrecipitation.value}%
             </Typography>
-            <Typography variant="h5">
+            <Typography>
               &nbsp;&nbsp;&nbsp;Wind Speed: {forecast.windSpeed}
             </Typography>
           </div>
 
           <div style={{ display: 'flex', alignItems: 'center' }}>
-            <Typography variant="h5">
+            <Typography>
               Humidity: {forecast.relativeHumidity.value}%
             </Typography>
-            <Typography variant="h5">
+            <Typography>
               &nbsp;&nbsp;&nbsp;Wind Direction: {forecast.windDirection}
             </Typography>
           </div>

@@ -52,12 +52,14 @@ function CurrTemperature({ cityName }) {
 
   return (
     <>
-      <div style={{ display: 'flex', alignItems: 'center' }}>
+      <div style={{ display: 'flex', alignItems: 'center', margin: '30px' }}>
         <Card>
           <div
             style={{ display: 'flex', alignItems: 'center', margin: '30px' }}
           >
-            <Typography variant="h1">{forecast.temperature}&deg;</Typography>
+            <Typography variant="h1" style={{ marginRight: '8px' }}>
+              {forecast.temperature}&deg;
+            </Typography>
             <Typography variant="h3">{forecast.temperatureUnit}</Typography>
           </div>
         </Card>
