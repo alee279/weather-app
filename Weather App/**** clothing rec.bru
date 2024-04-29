@@ -1,0 +1,41 @@
+meta {
+  name: **** clothing rec
+  type: http
+  seq: 12
+}
+
+post {
+  url: http://localhost:8000/forecast/get-rec
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "number": 2,
+      "name": "Monday",
+      "startTime": "2024-04-29T06:00:00-04:00",
+      "endTime": "2024-04-29T18:00:00-04:00",
+      "isDaytime": true,
+      "temperature": 87,
+      "temperatureUnit": "F",
+      "temperatureTrend": null,
+      "probabilityOfPrecipitation": {
+        "unitCode": "wmoUnit:percent",
+        "value": null
+      },
+      "dewpoint": {
+        "unitCode": "wmoUnit:degC",
+        "value": 16.666666666666668
+      },
+      "relativeHumidity": {
+        "unitCode": "wmoUnit:percent",
+        "value": 87
+      },
+      "windSpeed": "0 to 5 mph",
+      "windDirection": "NW",
+      "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+      "shortForecast": "Sunny",
+      "detailedForecast": "Sunny, with a high near 87. Northwest wind 0 to 5 mph."
+    }
+}

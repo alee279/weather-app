@@ -30,7 +30,6 @@ export async function getForecastURL(cityName: string): Promise<{ dailyForecast:
       const responseData = response.data;
       city.dailyForecast = responseData.properties.forecast;
       city.hourlyForecast = responseData.properties.forecastHourly;
-      // fs.writeFileSync('data/cities.json', JSON.stringify(cities, null, 2), 'utf8');
 
       return { dailyForecast: responseData.properties.forecast, hourlyForecast: responseData.properties.forecastHourly };
   } catch (error) {

@@ -20,7 +20,6 @@ const cities = JSON.parse(data);
 // get forecast of current hour
 export async function getCurrForecast(cityName: string): Promise<unknown> {
   const city = cities.find((c: City) => c.city === cityName);
-  console.log("hello")
   if (!city) {
     console.error(`City '${cityName}' not found`);
     return null;

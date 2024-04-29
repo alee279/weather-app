@@ -1,34 +1,72 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import '../app.css';
 import CurrTemperature from '../components/currTemperature';
 import CurrForecast from '../components/currForecast';
-import { Grid } from '@mui/material';
+import { Grid, MenuItem, Select, Typography } from '@mui/material';
 import HourlyForecast from '../components/hourly-forecast';
-import DayForecast from '../components/day-forecast';
+// import DayForecast from '../components/day-forecast';
+import WeekForecast from '../components/week-forecast';
+import axios from 'axios';
+import ClothingRec from '../components/clothing-rec';
 // import axios from 'axios';
 
 function App() {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [city, setCity] = useState('Philadelphia');
+  const [cityList, setCityList] = useState([]);
 
-  // const cityList = axios.get('/cityList');
+  useEffect(() => {
+    const fetchCities = async () => {
+      try {
+        const response = await axios.get('forecast/cityList');
+        setCityList(response.data.sort()); // Set cityList to response.data
+      } catch (error) {
+        console.error('Error fetching cities', error);
+      }
+    };
+
+    fetchCities();
+  }, []);
+
+  const handleCityChange = (event) => {
+    setCity(event.target.value);
+  };
 
   return (
-    <Grid container spacing={2}>
-      <Grid item xs={12} md={6}>
-        <CurrTemperature cityName={city} />
+    <>
+      <div>
+        <Typography variant="body1">Todays Weather In:</Typography>
+        <Select
+          value={city}
+          onChange={handleCityChange}
+          style={{ width: '600px' }}
+        >
+          {cityList.map((city) => (
+            <MenuItem key={city} value={city}>
+              {city}
+            </MenuItem>
+          ))}
+        </Select>
+      </div>
+      <Grid container spacing={3}>
+        <Grid item xs={1} />
+        <Grid item xs={2}>
+          <CurrTemperature cityName={city} />
+        </Grid>
+        <Grid item xs={4}>
+          <CurrForecast cityName={city} />
+        </Grid>
+        <Grid item xs={4}>
+          <ClothingRec cityName={city} />
+        </Grid>
+        <Grid item xs={4}>
+          <HourlyForecast cityName={city} />
+        </Grid>
+        <Grid item xs={12}>
+          <WeekForecast cityName={city} />
+        </Grid>
       </Grid>
-      <Grid item xs={12} md={6}>
-        <CurrForecast cityName={city} />
-      </Grid>
-      <Grid item xs={12} md={6}>
-        <HourlyForecast cityName={city} />
-      </Grid>
-
-      <Grid item xs={12} md={6}>
-        <DayForecast cityName={city} />
-      </Grid>
-    </Grid>
+    </>
   );
 }
 

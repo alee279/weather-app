@@ -63,7 +63,7 @@ async function getRec(forecast: DailyForecastData ) {
   return res
 }
 
-app.post("/get-rec", async (req, res) => {
+app.post("/forecast/get-rec", async (req, res) => {
   try {
     const response = await getRec(req.body);
     return res.status(200).send("hi");
@@ -72,11 +72,6 @@ app.post("/get-rec", async (req, res) => {
     console.error('Error fetching response:', error);
     return res.status(500).send('Error fetching response');
   }
-});
-
-
-app.get('/hello', (_, res) => {
-  res.json({ message: 'Hello, frontend!' });
 });
 
 app.use('/forecast', forecastRouter)
