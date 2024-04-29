@@ -1,0 +1,41 @@
+meta {
+  name: openai
+  type: http
+  seq: 12
+}
+
+post {
+  url: http://localhost:8000/get-rec
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "number": 1,
+    "name": "",
+    "startTime": "2024-04-28T16:00:00-04:00",
+    "endTime": "2024-04-28T17:00:00-04:00",
+    "isDaytime": true,
+    "temperature": 82,
+    "temperatureUnit": "F",
+    "temperatureTrend": null,
+    "probabilityOfPrecipitation": {
+      "unitCode": "wmoUnit:percent",
+      "value": 4
+    },
+    "dewpoint": {
+      "unitCode": "wmoUnit:degC",
+      "value": 14.444444444444445
+    },
+    "relativeHumidity": {
+      "unitCode": "wmoUnit:percent",
+      "value": 44
+    },
+    "windSpeed": "10 mph",
+    "windDirection": "W",
+    "icon": "https://api.weather.gov/icons/land/day/sct,4?size=small",
+    "shortForecast": "Mostly Sunny",
+    "detailedForecast": ""
+  }
+}
