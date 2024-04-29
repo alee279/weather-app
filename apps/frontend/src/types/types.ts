@@ -55,6 +55,13 @@ export interface HourlyForecastData {
   detailedForecast: string;
 }
 
+export interface HourlyPrecipData {
+  startTime: string;
+  precipitation: {
+    unitCode: string;
+    value: number;
+  };
+}
 
 export interface HourlyTempData {
   startTime: string;

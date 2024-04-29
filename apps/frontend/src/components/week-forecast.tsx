@@ -5,16 +5,50 @@ import { Card, CardContent, Modal, Typography } from '@mui/material';
 import React from 'react';
 import axios from 'axios';
 import CloseIcon from '@mui/icons-material/Close';
+import HourlyPrecip from './hourly-precip';
 
 WeekForecast.propTypes = {
   cityName: PropTypes.string.isRequired,
 };
 
+function convertDateFormat(date: string): string {
+  const daysOfWeek = [
+    'Sunday',
+    'Monday',
+    'Tuesday',
+    'Wednesday',
+    'Thursday',
+    'Friday',
+    'Saturday',
+  ];
+  const months = [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December',
+  ];
+
+  const newDate = new Date(date);
+  const dayOfWeek = daysOfWeek[newDate.getDay()];
+  const month = months[newDate.getMonth()];
+  const day = newDate.getDate();
+
+  return `${dayOfWeek}, ${month} ${day}`;
+}
+
 function WeekForecast({ cityName }) {
   const [forecast, setForecast] = useState<DailyForecastData[]>([]);
   const [nightTemp, setNightTemp] = useState<NightTempData[]>([]);
   const [modalOpen, setModalOpen] = useState(false);
-  const [selectedCity, setSelectedCity] = useState<string>('');
+  const [date, setDate] = useState<string>('');
 
   React.useEffect(() => {
     const fetchForecast = async () => {
@@ -57,8 +91,8 @@ function WeekForecast({ cityName }) {
     forecast[0].name = 'Today';
   }
 
-  const handleOpenModal = (city) => {
-    setSelectedCity(city);
+  const handleOpenModal = (date) => {
+    setDate(date);
     setModalOpen(true);
   };
 
@@ -77,7 +111,7 @@ function WeekForecast({ cityName }) {
             <Card
               key={index}
               variant="outlined"
-              onClick={() => handleOpenModal(data.name)}
+              onClick={() => handleOpenModal(data.startTime)}
               style={{ flex: 1, margin: '0 10px' }}
             >
               <CardContent>
@@ -130,9 +164,11 @@ function WeekForecast({ cityName }) {
             >
               <CloseIcon />
             </button>
-            <h2 id="modal-modal-title">Details for {selectedCity}</h2>
+            <Typography id="modal-modal-title">
+              {convertDateFormat(date)}
+            </Typography>
 
-            {/* Add your modal content here */}
+            <HourlyPrecip cityName={cityName} date={date} />
           </div>
         </div>
       </Modal>
