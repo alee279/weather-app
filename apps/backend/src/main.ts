@@ -41,7 +41,7 @@ interface DailyForecastData {
   detailedForecast: string;
 }
 
-const openai = new OpenAI({apiKey: 'sk-proj-LNK5zZxyXESIlThUZpmVT3BlbkFJG9CQnECmueaWEEMal8Kt'});
+const openai = new OpenAI({apiKey: process.env.OPEN_AI_KEY});
 
 async function getRec(forecast: DailyForecastData ) {
   console.log(forecast)
