@@ -24,8 +24,6 @@ function HourlyPrecip({ cityName, date }: { cityName: string; date: string }) {
     fetchPrecip();
   });
 
-  // const xAxisData = Array.from({ length: 24 }, (_, i) => `${i}:00`);
-  // const seriesData = Array.from({ length: 24 }, () => ({ data: [] }));
   const xAxisData = [];
   const seriesData = [];
 
@@ -34,19 +32,17 @@ function HourlyPrecip({ cityName, date }: { cityName: string; date: string }) {
     const hour = new Date(entry.startTime).getHours();
     const precipitationValue = entry.precipitation.value;
     xAxisData.push(hour);
-    seriesData.push({ data: precipitationValue });
+    seriesData.push(precipitationValue);
   });
-
-  console.log(precipitationData);
 
   return (
     <>
       <BarChart
         xAxis={[{ scaleType: 'band', data: xAxisData }]}
-        series={seriesData} // FOR SOME REASON ONLY APPEARS IN 1ST VALUE
-        // xAxis={[{ scaleType: 'band', data: ['group A', 'group B', 'group C'] }]}
-        // series={[{ data: [4, 3, 5] }, { data: [1, 6, 3] }, { data: [2, 5, 6] }]}
-        // series={[{ data: [4] }, { data: [1] }, { data: [2] }]}
+        yAxis={[{ scaleType: 'linear', max: 100 }]}
+        series={[
+          { data: seriesData, label: 'Chance of Rain (%)', type: 'bar' },
+        ]}
         width={500}
         height={300}
       />

@@ -6,6 +6,7 @@ import React from 'react';
 import axios from 'axios';
 import CloseIcon from '@mui/icons-material/Close';
 import HourlyPrecip from './hourly-precip';
+import HourlyTemp from './hourly-temp';
 
 WeekForecast.propTypes = {
   cityName: PropTypes.string.isRequired,
@@ -169,6 +170,7 @@ function WeekForecast({ cityName }) {
             </Typography>
 
             <HourlyPrecip cityName={cityName} date={date} />
+            <HourlyTemp cityName={cityName} date={date} />
           </div>
         </div>
       </Modal>
