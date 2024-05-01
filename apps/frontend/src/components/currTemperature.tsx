@@ -43,7 +43,7 @@ function CurrTemperature({ cityName }) {
         const response = await axios.get(`/forecast/${cityName}/currForecast`);
         setForecast(response.data);
       } catch (error) {
-        // console.error('Error fetching forecast', error);
+        console.error('Error fetching forecast', error);
       }
     };
 
@@ -55,7 +55,9 @@ function CurrTemperature({ cityName }) {
       <div style={{ display: 'flex', alignItems: 'center' }}>
         <Card>
           <div style={{ display: 'flex', alignItems: 'center' }}>
-            <Typography variant="h1">{forecast.temperature}&deg;</Typography>
+            <Typography variant="h1" className="temp">
+              {forecast.temperature}&deg;
+            </Typography>
             <Typography variant="h3">{forecast.temperatureUnit}</Typography>
           </div>
         </Card>

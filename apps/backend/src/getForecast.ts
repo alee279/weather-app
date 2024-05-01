@@ -64,7 +64,7 @@ export async function getWeeklyDaytimeForecast(cityName: string): Promise<unknow
   try {
     const response = await axios.get(city.dailyForecast);
     const periods = response.data.properties.periods;
-    return periods.filter(period => period.isDaytime);
+    return periods.filter(period => period.number === 1 || period.isDaytime && period.number < 14);
   } catch (error) {
     console.error('Error fetching daily forecast:', error);
     throw error;

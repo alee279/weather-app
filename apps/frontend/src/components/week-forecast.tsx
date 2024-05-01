@@ -50,6 +50,7 @@ function WeekForecast({ cityName }) {
   const [nightTemp, setNightTemp] = useState<NightTempData[]>([]);
   const [modalOpen, setModalOpen] = useState(false);
   const [date, setDate] = useState<string>('');
+  const [openForecast, setOpenForecast] = useState<DailyForecastData[]>([]);
 
   React.useEffect(() => {
     const fetchForecast = async () => {
@@ -94,6 +95,8 @@ function WeekForecast({ cityName }) {
 
   const handleOpenModal = (date) => {
     setDate(date);
+    setOpenForecast(forecast.filter((entry) => entry.startTime === date));
+    console.log(openForecast);
     setModalOpen(true);
   };
 
@@ -113,17 +116,23 @@ function WeekForecast({ cityName }) {
               key={index}
               variant="outlined"
               onClick={() => handleOpenModal(data.startTime)}
-              style={{ flex: 1, margin: '0 10px' }}
+              className="day-of-week-card"
             >
               <CardContent>
-                <Typography variant="body1">{data.name}</Typography>
-                <Typography variant="h5">
+                <Typography variant="body1" className="purple-light">
+                  {data.name}
+                </Typography>
+                <Typography variant="h5" className="day-of-week-main">
                   {data.temperature}&nbsp;/&nbsp;
                   {nightTemperature !== undefined && (
                     <span>{nightTemperature}</span>
                   )}
                 </Typography>
-                <Typography variant="body1" component="div">
+                <Typography
+                  variant="body1"
+                  component="div"
+                  className="day-of-week-main"
+                >
                   {data.shortForecast}
                 </Typography>
               </CardContent>
@@ -168,9 +177,41 @@ function WeekForecast({ cityName }) {
             <Typography id="modal-modal-title">
               {convertDateFormat(date)}
             </Typography>
-
-            <HourlyPrecip cityName={cityName} date={date} />
-            <HourlyTemp cityName={cityName} date={date} />
+            <div className="day-of-week-modal-display">
+              <div>
+                <Typography
+                  variant="body1"
+                  className="forecast-details"
+                  style={{ fontSize: '1.3rem' }}
+                >
+                  {/* Precipitation: {openForecast[0].probabilityOfPrecipitation.value}% */}
+                </Typography>
+                <Typography
+                  className="forecast-details"
+                  style={{ fontSize: '1.3rem' }}
+                >
+                  {/* Humidity: {openForecast[0].relativeHumidity.value}% */}
+                </Typography>
+              </div>
+              <div>
+                <Typography
+                  className="forecast-details"
+                  style={{ fontSize: '1.3rem' }}
+                >
+                  {/* Wind Speed: {openForecast[0].windSpeed} */}
+                </Typography>
+                <Typography
+                  className="forecast-details"
+                  style={{ fontSize: '1.3rem' }}
+                >
+                  {/* Wind Direction: {openForecast[0].windDirection} */}
+                </Typography>
+              </div>
+            </div>
+            <div style={{ display: 'flex' }}>
+              <HourlyTemp cityName={cityName} date={date} />
+              <HourlyPrecip cityName={cityName} date={date} />
+            </div>
           </div>
         </div>
       </Modal>

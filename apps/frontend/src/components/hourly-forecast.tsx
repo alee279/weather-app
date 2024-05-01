@@ -10,8 +10,6 @@ import {
 import React from 'react';
 import axios from 'axios';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import theme from '../theme';
-import { ThemeProvider } from '@mui/material/styles';
 
 HourlyForecast.propTypes = {
   cityName: PropTypes.string.isRequired,
@@ -70,44 +68,67 @@ function HourlyForecast({ cityName }) {
     fetchForecast();
   }, [cityName]);
 
-  // start time -- temperature -- short forecast
-
-  // precip -- wind speed
-  // humidity -- wind dir
   return (
     <>
-      <ThemeProvider theme={theme}>
-        {forecast.map((data, index) => (
-          <Accordion key={index}>
-            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+      {forecast.map((data, index) => (
+        <Accordion key={index} className="hour-accordion">
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            sx={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+            }}
+          >
+            <div
+              style={{ width: '50px', marginRight: '40px', marginLeft: '10px' }}
+            >
               <Typography variant="body1" color="secondary">
-                {convertTo12HourFormat(data.startTime)}&nbsp;&nbsp;&nbsp;
-                {data.shortForecast}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                {data.temperature}&deg;F
+                {convertTo12HourFormat(data.startTime)}
               </Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <div style={{ display: 'flex', alignItems: 'center' }}>
-                <Typography>
-                  Precipitation: {data.probabilityOfPrecipitation.value}%
-                </Typography>
-                <Typography>
-                  &nbsp;&nbsp;&nbsp;Wind Speed: {data.windSpeed}
-                </Typography>
-              </div>
+            </div>
+            <div style={{ width: '280px' }}>
+              <Typography
+                variant="body1"
+                color="secondary"
+                style={{ textAlign: 'left' }}
+              >
+                {data.shortForecast}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </Typography>
+            </div>
 
-              <div style={{ display: 'flex', alignItems: 'center' }}>
-                <Typography>
-                  Humidity: {data.relativeHumidity.value}%
-                </Typography>
-                <Typography>
-                  &nbsp;&nbsp;&nbsp;Wind Direction: {data.windDirection}
-                </Typography>
-              </div>
-            </AccordionDetails>
-          </Accordion>
-        ))}
-      </ThemeProvider>
+            <Typography
+              variant="body1"
+              color="secondary"
+              sx={{ marginLeft: '10%' }}
+            >
+              {data.temperature}&deg;F
+            </Typography>
+          </AccordionSummary>
+
+          <AccordionDetails>
+            <div className="forecast-details-display">
+              {' '}
+              <Typography className="purple-light">
+                Precipitation: {data.probabilityOfPrecipitation.value}%
+              </Typography>
+              <Typography className="purple-light">
+                &nbsp;&nbsp;&nbsp;Wind Speed: {data.windSpeed}
+              </Typography>
+            </div>
+
+            <div className="forecast-details-display">
+              {' '}
+              <Typography className="purple-light">
+                Humidity: {data.relativeHumidity.value}%
+              </Typography>
+              <Typography className="purple-light">
+                &nbsp;&nbsp;&nbsp;Wind Direction: {data.windDirection}
+              </Typography>
+            </div>
+          </AccordionDetails>
+        </Accordion>
+      ))}
     </>
   );
 }

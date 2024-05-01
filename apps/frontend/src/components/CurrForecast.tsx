@@ -3,6 +3,7 @@ import axios from 'axios';
 import PropTypes from 'prop-types';
 import { Card, Typography } from '@mui/material';
 import { HourlyForecastData } from '../types/types';
+import './styles.css';
 
 CurrForecast.propTypes = {
   cityName: PropTypes.string.isRequired,
@@ -41,8 +42,7 @@ function CurrForecast({ cityName }) {
     const fetchForecast = async () => {
       try {
         const response = await axios.get(`/forecast/${cityName}/currForecast`);
-        // console.log(cityName);
-        // console.log(response.data);
+
         setForecast(response.data);
       } catch (error) {
         // console.error('Error fetching forecast', error);
@@ -52,30 +52,60 @@ function CurrForecast({ cityName }) {
     fetchForecast();
   }, [cityName]);
 
+  // temp
   // short forecast
-  // precip -- wind speed
-  // humidity -- wind dir
   return (
     <>
-      <Card>
-        <div style={{ alignItems: 'center', margin: '30px' }}>
-          <Typography>{forecast.shortForecast}</Typography>
-          <div style={{ display: 'flex', alignItems: 'center' }}>
-            <Typography>
-              Precipitation: {forecast.probabilityOfPrecipitation.value}%
-            </Typography>
-            <Typography>
-              &nbsp;&nbsp;&nbsp;Wind Speed: {forecast.windSpeed}
+      <Card className="temp-card">
+        <div style={{ display: 'flex', alignItems: 'center' }}>
+          <div>
+            <Typography variant="h5" className="temp-text">
+              {forecast.shortForecast}
             </Typography>
           </div>
-
-          <div style={{ display: 'flex', alignItems: 'center' }}>
-            <Typography>
-              Humidity: {forecast.relativeHumidity.value}%
-            </Typography>
-            <Typography>
-              &nbsp;&nbsp;&nbsp;Wind Direction: {forecast.windDirection}
-            </Typography>
+          <Typography variant="h1" className="temp-text">
+            {forecast.temperature}&deg;
+          </Typography>
+          <Typography variant="h3" className="temp-text">
+            {forecast.temperatureUnit}
+          </Typography>
+        </div>
+      </Card>
+      <Card className="forecast-card">
+        <div style={{ alignItems: 'center', margin: '30px' }}>
+          <Typography variant="h5" className="forecast-detail-title">
+            Details:
+          </Typography>
+          <div className="forecast-details-display">
+            <div>
+              <Typography
+                variant="body1"
+                className="forecast-details"
+                style={{ fontSize: '1.3rem' }}
+              >
+                Precipitation: {forecast.probabilityOfPrecipitation.value}%
+              </Typography>
+              <Typography
+                className="forecast-details"
+                style={{ fontSize: '1.3rem' }}
+              >
+                Humidity: {forecast.relativeHumidity.value}%
+              </Typography>
+            </div>
+            <div>
+              <Typography
+                className="forecast-details"
+                style={{ fontSize: '1.3rem' }}
+              >
+                Wind Speed: {forecast.windSpeed}
+              </Typography>
+              <Typography
+                className="forecast-details"
+                style={{ fontSize: '1.3rem' }}
+              >
+                Wind Direction: {forecast.windDirection}
+              </Typography>
+            </div>
           </div>
         </div>
       </Card>

@@ -9,6 +9,7 @@ dotenv.config();
 const PORT = process.env.PORT ?? 8000;
 
 const app = express();
+app.use(express.json())
 
 // updateForecastDataForAllCities()
 getCityNames();
@@ -48,15 +49,15 @@ async function getRec(forecast: DailyForecastData ) {
   const res =  openai.chat.completions.create({
     messages: [{
       "role": "system",
-      "content": "Give advice on what is best to wear on a given day based on the forecast given to you"
+      "content": "Give advice in 4 sentences on what is best to wear on a given day based on the forecast given to you"
     },
     {
       "role": "user",
-      "content": JSON.stringify(forecast)
+      "content": forecast.detailedForecast ?? forecast.shortForecast
     }],
     model: "gpt-3.5-turbo",
     temperature: 0.7,
-    max_tokens: 64,
+    max_tokens: 100,
     top_p: 1
   });
   console.log(res)
@@ -66,7 +67,7 @@ async function getRec(forecast: DailyForecastData ) {
 app.post("/forecast/get-rec", async (req, res) => {
   try {
     const response = await getRec(req.body);
-    return res.status(200).send("hi");
+    // return res.status(200).send("hi");
     return res.status(200).send(JSON.stringify(response.choices[0].message.content));
   } catch (error) {
     console.error('Error fetching response:', error);

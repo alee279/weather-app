@@ -3630,17 +3630,6 @@
     "hourlyForecast": "https://api.weather.gov/gridpoints/PSR/61,37/forecast/hourly"
   },
   {
-    "city": "Westminster",
-    "growth_from_2000_to_2013": "3.9%",
-    "latitude": 33.7513419,
-    "longitude": -117.9939921,
-    "population": "91739",
-    "rank": "331",
-    "state": "California",
-    "dailyForecast": "https://api.weather.gov/gridpoints/BOU/62,66/forecast",
-    "hourlyForecast": "https://api.weather.gov/gridpoints/BOU/62,66/forecast/hourly"
-  },
-  {
     "city": "Orem",
     "growth_from_2000_to_2013": "8.5%",
     "latitude": 40.2968979,
