@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { Card, Typography } from '@mui/material';
 import { HourlyForecastData } from '../types/types';
 import './styles.css';
+import { findIcon } from '../icons';
 
 CurrForecast.propTypes = {
   cityName: PropTypes.string.isRequired,
@@ -58,7 +59,12 @@ function CurrForecast({ cityName }) {
     <>
       <Card className="temp-card">
         <div style={{ display: 'flex', alignItems: 'center' }}>
+          {/* <img src="./icons/cloudy.svg" alt="Cloudy" /> */}
           <div>
+            <img
+              src={findIcon(forecast.shortForecast, forecast.isDaytime)}
+              alt="Weather Icon"
+            />
             <Typography variant="h5" className="temp-text">
               {forecast.shortForecast}
             </Typography>

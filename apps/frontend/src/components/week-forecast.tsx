@@ -8,6 +8,15 @@ import CloseIcon from '@mui/icons-material/Close';
 import HourlyPrecip from './hourly-precip';
 import HourlyTemp from './hourly-temp';
 
+interface details {
+  precipitation: number;
+  humidity: number;
+  windSpeed: string;
+  windDirection: string;
+  shortForecast: string;
+  detailedForecast: string;
+}
+
 WeekForecast.propTypes = {
   cityName: PropTypes.string.isRequired,
 };
@@ -50,7 +59,14 @@ function WeekForecast({ cityName }) {
   const [nightTemp, setNightTemp] = useState<NightTempData[]>([]);
   const [modalOpen, setModalOpen] = useState(false);
   const [date, setDate] = useState<string>('');
-  const [openForecast, setOpenForecast] = useState<DailyForecastData[]>([]);
+  const [openForecast, setOpenForecast] = useState<details>({
+    precipitation: 0,
+    humidity: 0,
+    windSpeed: '',
+    windDirection: '',
+    shortForecast: '',
+    detailedForecast: '',
+  });
 
   React.useEffect(() => {
     const fetchForecast = async () => {
@@ -95,7 +111,22 @@ function WeekForecast({ cityName }) {
 
   const handleOpenModal = (date) => {
     setDate(date);
-    setOpenForecast(forecast.filter((entry) => entry.startTime === date));
+    const filteredEntry = forecast.find((entry) => entry.startTime === date);
+    if (filteredEntry) {
+      setOpenForecast({
+        precipitation:
+          filteredEntry.probabilityOfPrecipitation.value ??
+          openForecast.precipitation,
+        humidity: filteredEntry.relativeHumidity.value ?? openForecast.humidity,
+        windSpeed: filteredEntry.windSpeed ?? openForecast.windSpeed,
+        windDirection:
+          filteredEntry.windDirection ?? openForecast.windDirection,
+        shortForecast:
+          filteredEntry.shortForecast ?? openForecast.shortForecast,
+        detailedForecast:
+          filteredEntry.detailedForecast ?? openForecast.detailedForecast,
+      });
+    }
     console.log(openForecast);
     setModalOpen(true);
   };
@@ -174,23 +205,42 @@ function WeekForecast({ cityName }) {
             >
               <CloseIcon />
             </button>
-            <Typography id="modal-modal-title">
+            <Typography
+              variant="h4"
+              id="modal-modal-title"
+              style={{ margin: '15px' }}
+            >
               {convertDateFormat(date)}
             </Typography>
             <div className="day-of-week-modal-display">
+              <div
+                style={{
+                  width: '200px',
+                  display: 'flex',
+                  justifyContent: 'center',
+                }}
+              >
+                <Typography
+                  variant="body1"
+                  className="forecast-details"
+                  style={{ fontSize: '1.3rem' }}
+                >
+                  {openForecast.shortForecast}
+                </Typography>
+              </div>
               <div>
                 <Typography
                   variant="body1"
                   className="forecast-details"
                   style={{ fontSize: '1.3rem' }}
                 >
-                  {/* Precipitation: {openForecast[0].probabilityOfPrecipitation.value}% */}
+                  Precipitation: {openForecast.precipitation}%
                 </Typography>
                 <Typography
                   className="forecast-details"
                   style={{ fontSize: '1.3rem' }}
                 >
-                  {/* Humidity: {openForecast[0].relativeHumidity.value}% */}
+                  Humidity: {openForecast.humidity}%
                 </Typography>
               </div>
               <div>
@@ -198,13 +248,13 @@ function WeekForecast({ cityName }) {
                   className="forecast-details"
                   style={{ fontSize: '1.3rem' }}
                 >
-                  {/* Wind Speed: {openForecast[0].windSpeed} */}
+                  Wind Speed: {openForecast.windSpeed}
                 </Typography>
                 <Typography
                   className="forecast-details"
                   style={{ fontSize: '1.3rem' }}
                 >
-                  {/* Wind Direction: {openForecast[0].windDirection} */}
+                  Wind Direction: {openForecast.windDirection}
                 </Typography>
               </div>
             </div>

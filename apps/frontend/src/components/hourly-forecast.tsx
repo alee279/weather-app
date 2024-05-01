@@ -109,20 +109,20 @@ function HourlyForecast({ cityName }) {
           <AccordionDetails>
             <div className="forecast-details-display">
               {' '}
-              <Typography className="purple-light">
+              <Typography className="blue-light">
                 Precipitation: {data.probabilityOfPrecipitation.value}%
               </Typography>
-              <Typography className="purple-light">
+              <Typography className="blue-light">
                 &nbsp;&nbsp;&nbsp;Wind Speed: {data.windSpeed}
               </Typography>
             </div>
 
             <div className="forecast-details-display">
               {' '}
-              <Typography className="purple-light">
+              <Typography className="blue-light">
                 Humidity: {data.relativeHumidity.value}%
               </Typography>
-              <Typography className="purple-light">
+              <Typography className="blue-light">
                 &nbsp;&nbsp;&nbsp;Wind Direction: {data.windDirection}
               </Typography>
             </div>
