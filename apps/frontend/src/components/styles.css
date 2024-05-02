@@ -12,7 +12,6 @@
 }
 
 .temp-card {
-  padding: 30px;
   margin: 0px 40px 40px 40px;
   display: flex;
   flex-direction: column;
@@ -21,7 +20,7 @@
 }
 
 .temp-text {
-  color: var(--secondary-color-main);
+  color: var(--primary-color-main);
 }
 
 .forecast-card {
@@ -36,7 +35,7 @@
 .forecast-details {
   color: var(--primary-color-main);
   font-size: 1.3rem;
-  margin-top: 5px;
+  margin-top: 200px;
 }
 
 .forecast-details-display {

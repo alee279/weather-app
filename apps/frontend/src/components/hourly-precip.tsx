@@ -36,6 +36,12 @@ function HourlyPrecip({ cityName, date }: { cityName: string; date: string }) {
     seriesData.push(precipitationValue);
   });
 
+  const chartSetting = {
+    yAxis: [{ label: 'Chance of Rain (%)' }],
+    width: 500,
+    height: 300,
+  };
+
   return (
     <>
       <BarChart
@@ -44,13 +50,14 @@ function HourlyPrecip({ cityName, date }: { cityName: string; date: string }) {
         series={[
           {
             data: seriesData,
-            label: 'Chance of Rain (%)',
+            label: 'Precipitation',
             type: 'bar',
             color: theme.palette.primary.light,
           },
         ]}
         width={500}
         height={300}
+        {...chartSetting}
       />
     </>
   );

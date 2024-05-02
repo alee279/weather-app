@@ -58,17 +58,36 @@ function CurrForecast({ cityName }) {
   return (
     <>
       <Card className="temp-card">
-        <div style={{ display: 'flex', alignItems: 'center' }}>
-          {/* <img src="./icons/cloudy.svg" alt="Cloudy" /> */}
-          <div>
-            <img
-              src={findIcon(forecast.shortForecast, forecast.isDaytime)}
-              alt="Weather Icon"
-            />
-            <Typography variant="h5" className="temp-text">
-              {forecast.shortForecast}
-            </Typography>
-          </div>
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            marginRight: '20px',
+            paddingRight: '120px',
+          }}
+        >
+          <img
+            src={findIcon(forecast.shortForecast, forecast.isDaytime)}
+            alt="Weather Icon"
+            style={{
+              maxWidth: '150px',
+              maxHeight: '150px',
+              marginLeft: '30px',
+              marginRight: '30px',
+            }}
+          />
+          <Typography
+            variant="h3"
+            className="temp-text"
+            style={{
+              marginRight: '20px',
+              flex: '1',
+              fontSize: `calc(10px + ${forecast.shortForecast.length} / 2 px)`,
+            }}
+          >
+            {forecast.shortForecast}
+          </Typography>
+
           <Typography variant="h1" className="temp-text">
             {forecast.temperature}&deg;
           </Typography>
@@ -76,8 +95,6 @@ function CurrForecast({ cityName }) {
             {forecast.temperatureUnit}
           </Typography>
         </div>
-      </Card>
-      <Card className="forecast-card">
         <div style={{ alignItems: 'center', margin: '30px' }}>
           <Typography variant="h5" className="forecast-detail-title">
             Details:

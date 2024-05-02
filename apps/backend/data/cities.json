@@ -1199,17 +1199,6 @@
     "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/57,76/forecast/hourly"
   },
   {
-    "city": "Columbus",
-    "growth_from_2000_to_2013": "8.7%",
-    "latitude": 32.4609764,
-    "longitude": -84.9877094,
-    "population": "202824",
-    "rank": "110",
-    "state": "Georgia",
-    "dailyForecast": "https://api.weather.gov/gridpoints/ILN/85,81/forecast",
-    "hourlyForecast": "https://api.weather.gov/gridpoints/ILN/85,81/forecast/hourly"
-  },
-  {
     "city": "Montgomery",
     "growth_from_2000_to_2013": "-0.1%",
     "latitude": 32.3668052,
@@ -1241,17 +1230,6 @@
     "state": "Louisiana",
     "dailyForecast": "https://api.weather.gov/gridpoints/SHV/74,69/forecast",
     "hourlyForecast": "https://api.weather.gov/gridpoints/SHV/74,69/forecast/hourly"
-  },
-  {
-    "city": "Aurora",
-    "growth_from_2000_to_2013": "38.4%",
-    "latitude": 41.7605849,
-    "longitude": -88.32007150000001,
-    "population": "199963",
-    "rank": "114",
-    "state": "Illinois",
-    "dailyForecast": "https://api.weather.gov/gridpoints/BOU/68,61/forecast",
-    "hourlyForecast": "https://api.weather.gov/gridpoints/BOU/68,61/forecast/hourly"
   },
   {
     "city": "Yonkers",
@@ -2002,17 +1980,6 @@
     "hourlyForecast": "https://api.weather.gov/gridpoints/SGX/39,65/forecast/hourly"
   },
   {
-    "city": "Pasadena",
-    "growth_from_2000_to_2013": "3.8%",
-    "latitude": 34.1477849,
-    "longitude": -118.1445155,
-    "population": "139731",
-    "rank": "183",
-    "state": "California",
-    "dailyForecast": "https://api.weather.gov/gridpoints/HGX/71,93/forecast",
-    "hourlyForecast": "https://api.weather.gov/gridpoints/HGX/71,93/forecast/hourly"
-  },
-  {
     "city": "Fullerton",
     "growth_from_2000_to_2013": "9.8%",
     "latitude": 33.8703596,
@@ -2539,17 +2506,6 @@
     "state": "California",
     "dailyForecast": "https://api.weather.gov/gridpoints/MTR/91,108/forecast",
     "hourlyForecast": "https://api.weather.gov/gridpoints/MTR/91,108/forecast/hourly"
-  },
-  {
-    "city": "Peoria",
-    "growth_from_2000_to_2013": "3.0%",
-    "latitude": 40.6936488,
-    "longitude": -89.5889864,
-    "population": "116513",
-    "rank": "232",
-    "state": "Illinois",
-    "dailyForecast": "https://api.weather.gov/gridpoints/PSR/154,64/forecast",
-    "hourlyForecast": "https://api.weather.gov/gridpoints/PSR/154,64/forecast/hourly"
   },
   {
     "city": "Provo",
@@ -4288,17 +4244,6 @@
     "state": "Michigan",
     "dailyForecast": "https://api.weather.gov/gridpoints/DTX/54,33/forecast",
     "hourlyForecast": "https://api.weather.gov/gridpoints/DTX/54,33/forecast/hourly"
-  },
-  {
-    "city": "Bloomington",
-    "growth_from_2000_to_2013": "16.1%",
-    "latitude": 39.165325,
-    "longitude": -86.52638569999999,
-    "population": "82575",
-    "rank": "392",
-    "state": "Indiana",
-    "dailyForecast": "https://api.weather.gov/gridpoints/MPX/107,66/forecast",
-    "hourlyForecast": "https://api.weather.gov/gridpoints/MPX/107,66/forecast/hourly"
   },
   {
     "city": "Sioux City",

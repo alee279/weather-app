@@ -23,6 +23,7 @@ function App() {
         const response = await axios.get('forecast/cityList');
         setCityList(response.data.sort());
       } catch (error) {
+        // eslint-disable-next-line no-console
         console.error('Error fetching cities', error);
       }
     };
@@ -38,7 +39,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <div
         style={{
-          backgroundImage: `url(${'https://media.istockphoto.com/id/1406927873/vector/subtle-gradient-blend-background.jpg?s=612x612&w=0&k=20&c=QobMWoFJTszTReSo6am7A-vlEygNVM9S0C4zQAzyPUE='})`,
+          backgroundImage: `url(${'https://img.freepik.com/free-photo/colorful-cloudy-sky-sunset-gradient-color-sky-texture-abstract-nature-background-very-peri_127032-2364.jpg?size=626&ext=jpg&ga=GA1.1.553209589.1714521600&semt=aishttps://img.freepik.com/premium-photo/pixel-art-star-sky-evening-background-with-cloudy-purple-sky_887552-25474.jpg'})`,
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
@@ -60,19 +61,24 @@ function App() {
             className="city-select"
           >
             {cityList.map((city) => (
-              <MenuItem key={city} value={city}>
-                <Typography variant="h5">{city}</Typography>
+              <MenuItem
+                key={city}
+                value={city}
+                style={{ backgroundColor: 'white' }}
+              >
+                <Typography variant="body1">{city}</Typography>
               </MenuItem>
             ))}
           </Select>
         </div>
 
         <Grid container spacing={3}>
-          <Grid item xs={6}>
+          <Grid item xs={1} />
+          <Grid item xs={5}>
             <CurrForecast cityName={city} />
             <ClothingRec cityName={city} />
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={5}>
             <HourlyForecast cityName={city} />
           </Grid>
           <Grid item xs={12}>

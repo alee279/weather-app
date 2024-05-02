@@ -2,7 +2,7 @@ import express from 'express';
 import dotenv from 'dotenv';
 import OpenAI from 'openai';
 import forecastRouter from './routes/forecast'
-import { getCityNames, updateForecastDataForAllCities } from './data';
+// import { getCityNames, updateForecastDataForAllCities } from './data';
 
 // read environment variables from .env file
 dotenv.config();
@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json())
 
 // updateForecastDataForAllCities()
-getCityNames();
+// getCityNames();
 
 interface DailyForecastData {
   number: number;
@@ -49,7 +49,7 @@ async function getRec(forecast: DailyForecastData ) {
   const res =  openai.chat.completions.create({
     messages: [{
       "role": "system",
-      "content": "Give advice in 4 sentences on what is best to wear on a given day based on the forecast given to you"
+      "content": "Give advice in 5 sentences on what is best to wear on a given day based on the forecast given to you"
     },
     {
       "role": "user",
@@ -67,7 +67,6 @@ async function getRec(forecast: DailyForecastData ) {
 app.post("/forecast/get-rec", async (req, res) => {
   try {
     const response = await getRec(req.body);
-    // return res.status(200).send("hi");
     return res.status(200).send(JSON.stringify(response.choices[0].message.content));
   } catch (error) {
     console.error('Error fetching response:', error);

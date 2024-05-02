@@ -12,7 +12,7 @@ const theme = createTheme({
       light: '#af9ad4'
     },
     background: {
-      paper: '#ffffff',
+      paper: 'rgba(255, 255, 255, 0.6)',
       default: '#eeeeee',
     },
     info: {
@@ -21,7 +21,7 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: '"Segoe UI"'
+    fontFamily: 'Lato, sans-serif',
   },
 });
 

@@ -10,6 +10,7 @@ import {
 import React from 'react';
 import axios from 'axios';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { findIcon } from '../icons';
 
 HourlyForecast.propTypes = {
   cityName: PropTypes.string.isRequired,
@@ -57,8 +58,6 @@ function HourlyForecast({ cityName }) {
         const response = await axios.get(
           `/forecast/${cityName}/hourlyForecast`,
         );
-        // console.log(cityName);
-        // console.log(response.data);
         setForecast(response.data);
       } catch (error) {
         // console.error('Error fetching forecast', error);
@@ -87,7 +86,16 @@ function HourlyForecast({ cityName }) {
                 {convertTo12HourFormat(data.startTime)}
               </Typography>
             </div>
-            <div style={{ width: '280px' }}>
+            <div style={{ width: '280px', display: 'flex' }}>
+              <img
+                src={findIcon(data.shortForecast, data.isDaytime)}
+                alt="Weather Icon"
+                style={{
+                  maxWidth: '20px',
+                  maxHeight: '20px',
+                  marginRight: '15%',
+                }}
+              />
               <Typography
                 variant="body1"
                 color="secondary"
@@ -100,7 +108,7 @@ function HourlyForecast({ cityName }) {
             <Typography
               variant="body1"
               color="secondary"
-              sx={{ marginLeft: '10%' }}
+              sx={{ marginLeft: '200px' }}
             >
               {data.temperature}&deg;F
             </Typography>

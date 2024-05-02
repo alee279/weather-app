@@ -7,6 +7,7 @@ import axios from 'axios';
 import CloseIcon from '@mui/icons-material/Close';
 import HourlyPrecip from './hourly-precip';
 import HourlyTemp from './hourly-temp';
+import { findIcon } from '../icons';
 
 interface details {
   precipitation: number;
@@ -15,6 +16,7 @@ interface details {
   windDirection: string;
   shortForecast: string;
   detailedForecast: string;
+  isDaytime: boolean;
 }
 
 WeekForecast.propTypes = {
@@ -66,6 +68,7 @@ function WeekForecast({ cityName }) {
     windDirection: '',
     shortForecast: '',
     detailedForecast: '',
+    isDaytime: true,
   });
 
   React.useEffect(() => {
@@ -125,6 +128,7 @@ function WeekForecast({ cityName }) {
           filteredEntry.shortForecast ?? openForecast.shortForecast,
         detailedForecast:
           filteredEntry.detailedForecast ?? openForecast.detailedForecast,
+        isDaytime: filteredEntry.isDaytime ?? openForecast.isDaytime,
       });
     }
     console.log(openForecast);
@@ -137,7 +141,7 @@ function WeekForecast({ cityName }) {
 
   return (
     <>
-      <div style={{ display: 'flex' }}>
+      <div style={{ display: 'flex', marginLeft: '30px', marginRight: '30px' }}>
         {forecast.map((data, index) => {
           const nightTemperature = nightTemp.find(
             (item) => item.startTime === data.endTime,
@@ -148,11 +152,17 @@ function WeekForecast({ cityName }) {
               variant="outlined"
               onClick={() => handleOpenModal(data.startTime)}
               className="day-of-week-card"
+              style={{ marginBottom: '30px' }}
             >
               <CardContent>
                 <Typography variant="body1" className="purple-light">
                   {data.name}
                 </Typography>
+                <img
+                  src={findIcon(data.shortForecast, data.isDaytime)}
+                  alt="Weather Icon"
+                  style={{ maxWidth: '130px', maxHeight: '130px' }}
+                />
                 <Typography variant="h5" className="day-of-week-main">
                   {data.temperature}&nbsp;/&nbsp;
                   {nightTemperature !== undefined && (
@@ -215,24 +225,52 @@ function WeekForecast({ cityName }) {
             <div className="day-of-week-modal-display">
               <div
                 style={{
-                  width: '200px',
+                  width: '250px',
                   display: 'flex',
                   justifyContent: 'center',
+                }}
+              >
+                <img
+                  src={findIcon(
+                    openForecast.shortForecast,
+                    openForecast.isDaytime,
+                  )}
+                  alt="Weather Icon"
+                  style={{
+                    maxWidth: '80px',
+                    maxHeight: '80px',
+                    marginLeft: '100px',
+                    marginRight: '40px',
+                  }}
+                />
+                <div
+                  style={{
+                    width: '120px',
+                  }}
+                >
+                  <Typography
+                    className="forecast-details"
+                    style={{
+                      fontSize: '1.3rem',
+                      marginTop: '7px',
+                    }}
+                  >
+                    {openForecast.shortForecast}
+                  </Typography>
+                </div>
+              </div>
+              <div
+                style={{
+                  marginLeft: '100px',
                 }}
               >
                 <Typography
                   variant="body1"
                   className="forecast-details"
-                  style={{ fontSize: '1.3rem' }}
-                >
-                  {openForecast.shortForecast}
-                </Typography>
-              </div>
-              <div>
-                <Typography
-                  variant="body1"
-                  className="forecast-details"
-                  style={{ fontSize: '1.3rem' }}
+                  style={{
+                    fontSize: '1.3rem',
+                    marginTop: '7px',
+                  }}
                 >
                   Precipitation: {openForecast.precipitation}%
                 </Typography>
@@ -243,10 +281,14 @@ function WeekForecast({ cityName }) {
                   Humidity: {openForecast.humidity}%
                 </Typography>
               </div>
-              <div>
+              <div
+                style={{
+                  marginLeft: '70px',
+                }}
+              >
                 <Typography
                   className="forecast-details"
-                  style={{ fontSize: '1.3rem' }}
+                  style={{ fontSize: '1.3rem', marginTop: '7px' }}
                 >
                   Wind Speed: {openForecast.windSpeed}
                 </Typography>
